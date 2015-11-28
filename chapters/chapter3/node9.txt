@@ -1,0 +1,12 @@
+9
+It's a dead end. The way back is east. 
+### Commands
+explore: You notice a small hole at the base of one of the book shelves.\n As you look inside you see a little mouse. 
+help:you should try exploring.
+mouse: As you move closer to the mouse, it runs off. I guess it was just a mouse.
+hole: The hole is way too small for you. Don't be silly.
+east: You walk east
+back: you go back. 
+### Paths
+east:10
+back:10

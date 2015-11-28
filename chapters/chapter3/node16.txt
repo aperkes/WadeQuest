@@ -1,0 +1,12 @@
+16
+You come to another opening. There are paths leading north, south, and east.
+### Commands
+explore: Nothing to see here, just more books.
+help: If you are ever complete stuck, you can type "QUIT" to quit a chapter.
+north: You walk north
+south: You walk south
+west: You walk west
+### Paths
+north:14
+south:21
+west:15

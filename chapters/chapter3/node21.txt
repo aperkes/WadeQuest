@@ -1,0 +1,12 @@
+21
+You come to another opening. There are paths leading north, east, and west
+### Commands
+explore: Nothing to see here, just more books.
+help: Generally speaking, dead ends have more stuff.\nIf there's something in a corridor there will be hints. 
+north: You walk north
+east: You walk east
+west: You walk west. 
+### Paths
+north:16
+east:22
+west:20

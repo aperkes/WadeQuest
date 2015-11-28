@@ -1,0 +1,10 @@
+14
+It's a dead end. The way back is south
+### Commands
+explore: Nothing to see here, just more books.
+help: There are a few secret menu options. There might be even more in the future.
+south: You walk south
+back: you go back. 
+### Paths
+south:16
+back:16

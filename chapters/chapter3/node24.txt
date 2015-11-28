@@ -1,0 +1,12 @@
+24
+You come to another opening. There are paths leading north, south, and west. \nThere's a damp, cruel smell blowing from the west.
+### Commands
+explore: Nothing to see here, just more books.
+help: There aren't any traps that will kill you without you doing something. So there's that. 
+north: You walk north
+south: You walk south
+west: You walk west. 
+### Paths
+north:22
+south:25
+west:26

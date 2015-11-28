@@ -1,0 +1,14 @@
+12
+It's a dead end. The way back is west
+### Commands
+explore: The shelves go up as high as you can see.\n It seems empty, but there are lots of little scraps of paper on the ground.\nAs you look closer you see that there are words on them.\n It seems that a message was torn apart. 
+read: "To f" "west north west" "ind t" "west north." "he password go"
+paper: "To f" "west north west" "ind t" "west north." "he password go" 
+scrap: "To f" "west north west" "ind t" "west north." "he password go" 
+scraps: "To f" "west north west" "ind t" "west north." "he password go" 
+help: you should try exploring.
+west: You walk west. 
+back: you go back. 
+### Paths
+west:11
+back:11

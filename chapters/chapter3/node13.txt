@@ -1,0 +1,11 @@
+13
+It's a dead end. The way back is north.
+### Commands
+explore: Nothing to see here, just more books.
+help: If I were you, I would start a map of where you have been. You're not going to find one here.
+map: There's no map here, suprising, I know.
+north: You walk north
+back: you go back. 
+### Paths
+north:11
+back:11

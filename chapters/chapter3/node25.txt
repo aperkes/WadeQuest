@@ -1,0 +1,11 @@
+25
+It's a dead end. The way back is north
+### Commands
+explore: The shelves go far into the sky, but these ones have books missing. You might be able to climb.
+climb: You climb up the shelves.\n After climbing for a while you hit the ceiling.\n Carved on the top is the words, "You can't climb out. We built a ceiling." With nowhere to go, you climb back down.
+help:you should try exploring.
+north: You walk north
+back: you go back. 
+### Paths
+north:24
+back:24

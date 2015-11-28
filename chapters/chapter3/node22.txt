@@ -1,0 +1,12 @@
+22
+You come to another opening. There are paths leading east, south, and west
+### Commands
+explore: Nothing to see here, just more books. You hear rumbling far in the east.
+help: Remember that you're in a maze. You might have to go a somehwat roundabout way.
+east: You walk east
+south: You walk south
+west: You walk west. 
+### Paths
+east:23
+south:24
+west:21

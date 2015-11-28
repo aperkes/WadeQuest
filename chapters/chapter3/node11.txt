@@ -1,0 +1,12 @@
+11
+You come to another opening. There are paths leading north, east, and south.
+### Commands
+explore: Nothing to see here, just more books.
+help: Some dead-ends are just dead-ends, but sometimes you'll find important clues.
+north: You walk north
+east: You walk east
+south: You walk south
+### Paths
+north:3
+east:12
+south:13

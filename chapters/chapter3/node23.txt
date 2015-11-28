@@ -1,0 +1,17 @@
+23
+You walk along a corridor. It turns to the left before reaching a small opening.\nThe shelves form a circle all around you. The only exit is south.
+### Commands
+explore: The books all in the same strange language. There are intricate carvings on the wooden shelves.\nAs you look at the various shelves, you notice a small lever made of beautiful green stone.
+help: try exploring, but watch out for traps...
+lever: You pull the lever, the circle of shelves close in, blocking the exit.\nFrom the center of the opening, tiles drop out, revealing a deep pit.\nYou try to hold on to the shelves, but your fingers slip.\nYou fall into the pit and into darkness.
+pull: You pull the lever, the circle of shelves close in, blocking the exit.\nFrom the center of the opening, tiles drop out, revealing a deep pit.\nYou try to hold on to the shelves, but your fingers slip.\nYou fall into the pit and into darkness.
+green: You pull the lever, the circle of shelves close in, blocking the exit.\nFrom the center of the opening, tiles drop out, revealing a deep pit.\nYou try to hold on to the shelves, but your fingers slip.\nYou fall into the pit and into darkness.
+south: You walk south
+check for traps:You look around for traps. Sadly you don't really know what you're look for.\nThere seems to be a chamber below you, the floor sounds hollow.
+back: You go back
+### Paths
+south:22
+back:22
+lever:0
+pull:0
+green:0

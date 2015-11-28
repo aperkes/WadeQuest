@@ -1,0 +1,12 @@
+20
+You come to another opening. There are paths leading north, east, and west.
+### Commands
+explore: Nothing to see here, just more books.
+help: If you haven't figured it out by now, you'll never get a different answer by typing the same thing
+north: You walk north
+east: You walk east
+west: You walk west. 
+### Paths
+north:18
+east:21
+west:19

@@ -1,0 +1,10 @@
+18
+It's a dead end. The way back is south
+### Commands
+explore: There's another mosaic on the floor. You step back to see it better. \nIt shows a person who looks a lot like you falling into a pit.\n It's surprisingly lifelike.
+help:you should try exploring.
+south: You walk south
+back: you go back. 
+### Paths
+south:20
+back:20

@@ -1,0 +1,19 @@
+19
+It's a dead end. The way back is east.
+### Commands
+explore: There's mosaic of a person falling into a pit. You notice that one of the tiles on the mosaic is loose.
+help:you should try exploring.
+leave: You leave the mosaic alone and go back.
+tile: As the tile comes out of it's spot, you realize there's a deep pit below this room.\nSuddenly, the tiles in the image drop and you fall into the pit.
+take: As the tile comes out of it's spot, you realize there's a deep pit below this room.\nSuddenly, the tiles in the image drop and you fall into the pit.
+grab: As the tile comes out of it's spot, you realize there's a deep pit below this room.\nSuddenly, the tiles in the image drop and you fall into the pit.
+pick up: As the tile comes out of it's spot, you realize there's a deep pit below this room.\nSuddenly, the tiles in the image drop and you fall into the pit.
+east: You walk east
+back: you go back. 
+### Paths
+east:20
+back:20
+tile:0
+take:0
+grab:0
+pick up:0

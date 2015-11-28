@@ -1,0 +1,16 @@
+#
+It's a dead end. The way back is 
+### Commands
+explore: Nothing to see here, just more books.
+help:you should try exploring.
+north: You walk north
+east: You walk east
+south: You walk south
+west: You walk west. 
+back: you go back. 
+### Paths
+north:0
+east:0
+south:0
+west:0
+back:0
