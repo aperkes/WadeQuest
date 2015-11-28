@@ -20,6 +20,8 @@ global USER_FILES
 global CHAPTERS
 global CURRENT_USER
 global CURRENT_CHAPTER
+global STATE
+
 ##For Mac:
 HOME = os.getcwd()
 ##For PC
@@ -28,6 +30,7 @@ USER_FILES = HOME + '/user_files'
 CHAPTERS = HOME + '/chapters'
 CURRENT_USER = 0 #dynamic global variable that allows for removal of os.getcwd()
 CURRENT_CHAPTER = 0
+STATE = []  # dynamic global variable that allows for changed state. 
 """ Figure out how to make that work... """
 
 class Node(object): ## Object for nodes. Input possible commands and their messages, as well as exits.
@@ -171,6 +174,35 @@ def smart_match(choice,node):
             outcome = ["What do you want to do? "]
     else:
         outcome = []
+ # Check for conditional, determine result....
+        if '!!' in node.commands:
+            states = node.commands['!!'].split(',')
+            for state in states:
+                STATE.append(state.strip())
+            del node.commands['!!'] 
+        if '??' in node.commands:
+            print 'current commands'
+            print node.commands
+            print node.paths
+            print 'found ??'
+            checks = node.commands['??'].split(',')
+            print checks
+            for check in checks:
+#if the check is in your state, do nothing
+                print 'checking each check'
+                if check.strip() in STATE:
+                    print 'found ' + check.strip()
+                    pass
+# If the check isn't in your state, it deletes the option from commands
+                if check.strip() not in STATE:
+                    print 'cannot find ' + check.strip()
+                    print 'deleting option'
+                    del node.commands[check]
+                    del node.paths[check]
+                    print node.commands
+                    print node.paths
+# Del the conditional commands (otherwise that will cause all sorts of problems)
+            del node.commands['??']
         for phrase in find_phrases(choice):
             if phrase in node.commands:
     #           print 'phrase added: ' + phrase
@@ -290,6 +322,7 @@ def have_an_adventure(adventure):
         current_node = run_node(adventure[current_node])
     if current_node == 777:
         add_next_adventure(CURRENT_CHAPTER)
+    raw_input('press enter to continue')
     slowprint('returning to menu...')
 
 def select_chapter():
@@ -415,6 +448,8 @@ def welcome():
 
 
 def menu():
+    # Initialize/reset global variables
+    STATE = []
     user_home = CURRENT_USER
     name = CURRENT_USER.split('/')[-1].capitalize()
     os.system('clear')

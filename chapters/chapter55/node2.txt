@@ -1,0 +1,14 @@
+2
+You got a sword!! why don't you go for a swim now
+### Commands
+look:Other than the old man, there's really just lots of trees
+talk: When you go to shake his hand, suddenly you find yourself in a cave!
+fight: You win! You get his old man cloak. It smells like old man...
+fly:Psh, like you can do that. Try again in a few chapters
+walk: No can do, friend. The old man sidles in front of you, blocking the path
+SAVE:and we're back
+die:Why would you do that? well now you're dead
+swim:you go for a swim with your sword
+!!:sword
+### Paths
+swim:3
