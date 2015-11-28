@@ -1,12 +1,16 @@
 3
-When you open the door, instead of your house, you see a huge library.\nThe book shelves form corridores. It feels like a labyrinth.\nBfore you know it, the door shuts behind you.
+On the floor there's a mosaic of a great beast. It's eyes are shining, and seem to follow you as move.\nThe corridors head West, South, and East.
 ### Commands
-explore:it's a library
-map:check out the map \n|l|______ |^_____   \n| |_    | |_____ |  \n| |o| | | |M ___ |  \n| | | | | |_|___ |  \n| |___| | | | ___|  \n|___   >|  o|___>|  \n    | | | | | ___|  \n| X | | | | |___ |  \n|_____|___|______|  \n
-get ye flask: You can't get ye flask!
-help:you can't go back, try looking for a way out.
-fly:Sorry, you can't fly. Maybe someday...
-walk:you walk into the library.
-door:the door is locked behind you, you can't get it open.
+south: You head South
+east: You head East
+west: You head West
+eyes: The eyes are set in stone, there doesn't seem to be anything you can do with it. 
+book: You can't pull the book out of the shelf. The spines are written in a language you've never seen.
+north: You can't go that way, the shelf is blocking the way
+shelf: The shelf is blocking your way, you're just going to have to accept that.  
+compass: It's a nice shiny compass, don't lose it.
 ### Paths
-walk:4
+south:11
+east:8
+west:4
+

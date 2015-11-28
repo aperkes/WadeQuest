@@ -1,17 +1,12 @@
 10
-here you have a fork
+You come to another opening. There are paths leading north, south, and west
 ### Commands
-explore:it's a library
-right: you go right!
-left:you go left
-back:you go back
-get ye flask: You can't get ye flask!
-get the thing: you got your thing! Now you'll have a thing
-help:you can't go back, try looking for a way out.
-fly:Sorry, you can't fly. Maybe someday...
-walk:you walk into the library.
-door:the door is locked behind you, you can't get it open.
+explore: Nothing to see here, just more books.
+help: Some deadends have hints, don't give up.
+north: You walk north
+south: You walk south
+west: You walk west. 
 ### Paths
-right:11
-left:14
-go back:9
+north:4
+south:15
+west:9

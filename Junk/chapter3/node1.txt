@@ -1,0 +1,26 @@
+1
+You're back in your room, but now you have your key. 
+### Commands
+explore:Your room is just like you left it.
+get ye flask: You can't get ye flask!
+help:Do you think anything is going on back in your house?
+fly:Sorry, you can't fly. Maybe someday...
+sleep:You go to sleep. When you wake up it's a bit darker outside.
+nap:You go to sleep. When you wake up it's a bit darker outside.
+walk:you walk around, but you're still in your room. 
+window:There's a deer hanging out in your yard, eating grass.\n Not too much is going on out there. 
+open box:It all your things, you've got books and legos and some nerf guns.
+open chest:It all your things, you've got books and legos and some nerf guns.
+nerf gun:You play with the nerf gun for a bit, but it's not that much fun by yourself.
+play with toys: . . . . . \n That's probably enough toys right now, I wonder what's happening in the living room.
+play legos: . . . \n Those were some fun legos
+play with legos: . . . \n Those were some fun legos
+play lego: . . . \n Those were some fun legos
+book:These books are great! I wonder what's going on in the rest of the house...
+books:These books are great! I wonder what's going on in the rest of the house...
+unlock:You get the key off the table and unlock the door, and open it. 
+door:You get the key off the table and unlock the door, and open it. 
+break: Hm, you really shouldn't break things in your room. I'm going to have to say no at this point. Maybe when you're older. 
+### Paths
+door:3
+unlock:3

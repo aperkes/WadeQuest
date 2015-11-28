@@ -6,6 +6,7 @@ no: "Why of course you do, let's go!" The very small wizard grabs your hand and 
 yes: "Alright then, off we go!" The very small wizard grabs your hand and pulls you into the trees, following a very small path that you hadn't noticed.
 fight: You try to fight the wizard, but he grabs your hand and pulls you into the trees mumbling, "every time..."
 get ye flask: You can't get ye flask!
+melt the wizard: Nice try, Baskin. Maybe next time. 
 help:"My pleasure!" says the wizard, and pulls you into the woods
 run:You run off into the woods, the wizard calls, "Wait! Come back! You'll running right towards her!"
 fly:Sorry, you can't fly. Maybe someday...

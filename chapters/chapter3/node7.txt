@@ -1,13 +1,10 @@
 7
-there's nothing here, sorry
+It's a dead end. The way back is south. 
 ### Commands
-explore:it's a library
-map:you check out the map
-go back:6
-get ye flask: You can't get ye flask!
-help:you can't go back, try looking for a way out.
-fly:Sorry, you can't fly. Maybe someday...
-walk:you walk into the library.
-door:the door is locked behind you, you can't get it open.
+explore:There's a rough stone tile on the ground, there might be something written on it. 
+read:The tile says, "The password is 'Petrichor'"
+tile:The tile says, "The password is 'Petrichor'"
+word:The tile says, "The password is 'Petrichor'"
+south: You walk south
 ### Paths
-go back:6
+south:0
