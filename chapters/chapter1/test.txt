@@ -1,0 +1,12 @@
+2
+From the DOOR you can see into your kitchen and your living room. Where would you like to go? \n (type a room to move there)
+### Commands
+help:Type a room, 'kitchen' or 'living room'
+explore:it's a beautiful day outside. The trees are lovely, and you can see a deer out in the yard. 
+kitchen:You walk over to the kitchen
+living:You walk to the living room
+livingroom:You walk to the living room
+### Paths
+kitchen:3
+living:4
+livingroom:4

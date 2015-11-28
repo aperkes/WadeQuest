@@ -1,0 +1,24 @@
+6
+The water carries you along, there's a waterfall coming up fast!
+### Commands
+look:Other than the raging waterfall, there are trees around the river and a moose. That's right, a moose.
+get out: you try swimming out, but the current is too strong.
+ask the moose: the moose doesn't speak english
+speak portuguese: Surprisingly enough, the moose speaks portuguese. He pulls you out with a branch.
+fly: even if that were possible, you're way too wet for that.
+walk: too deep for that, sorry bro
+cave: the cave is gone, it hardly knew thee.
+underwater: just rocks now, you scrape your foot.
+die:Why would you do that? well now you're dead
+drown: yep, you drown. that was easy.
+keep swimming: well ok, on we go. you go over the waterfall and you die
+stop swimming: the water carries you over the fall. you die.
+swim: well, you're doing that anyway, the river carries you along farther
+grab a tree: well that worked, surprisingly enough
+SAVE:and we're back
+### Paths
+speak portuguese:8
+die:0
+drown:0
+keep swimming:6
+grab a tree:8

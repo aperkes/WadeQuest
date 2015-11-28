@@ -1,0 +1,10 @@
+1
+Welcome to Ethan's Quest, let's get you started. Type what you want to do. \n You are at the door of your house. Type 'explore' to explore around, or 'help' to get additional help.
+### Commands
+help:Usually help gives you hints. You should try typing explore
+deer: The deer is lovely, but you really shouldn't mess with it. It's a wild animal. 
+explore:There's a deer by the window. He looks friendly enough. The door is unlocked, you can 'open' it
+open:you open the door and go inside
+SAVE:saved
+### Paths
+open:2

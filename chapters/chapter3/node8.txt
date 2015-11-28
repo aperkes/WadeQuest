@@ -1,0 +1,14 @@
+8
+you can check the map to see where you are. 
+### Commands
+explore:it's a library
+map:you check out the map
+keep going:the next place is cool, you can win a thing
+get ye flask: You can't get ye flask!
+help:you can't go back, try looking for a way out.
+fly:Sorry, you can't fly. Maybe someday...
+walk:you walk into the library.
+door:the door is locked behind you, you can't get it open.
+### Paths
+straight:9
+keep going:9

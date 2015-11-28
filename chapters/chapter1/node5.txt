@@ -1,0 +1,12 @@
+5
+You're standing in front of your bedroom door, what do you want to do? 
+### Commands
+help:maybe you should 'open' the door, you can also walk back to the 'kitchen' or the 'living room'
+explore:The door is wooden. It's a door, nothing too special about it. 
+living:You walk back to the living room
+kitchen:You walk back to the kitchen
+open:You open the door and shut it behind you. Now you're in your room!
+### Paths
+living:4
+kitchen:3
+open:777

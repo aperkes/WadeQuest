@@ -1,0 +1,13 @@
+22
+This might not actually be necessery, but you fought the monster and won! Now you get to leave, doing something else clever. And you have a sword...where to next? 
+### Commands
+explore:it's a library
+keep going:no can do, there's a big monster in the way. 
+back:I don't think you can do that. The monster blocked you off. 
+win:you leave, with the new chapter. 
+leave:you walk out, without the new chapter.
+help:you can't go back, try looking for a way out.
+fly:Sorry, you can't fly. Maybe someday...
+### Paths
+win:777
+leave:776

@@ -1,0 +1,13 @@
+13
+In front of you, a large vibrant blue fish swims lazily in clear spring water. It seems to you that both the spring and the fish appeared from nowhere.
+### Commands
+help:You haven't had anything to drink for a long time. I wonder if that water is clean.
+explore:The trees all look identical, except for the spring. There seems to be something shining at the bottom of spring, but it's far too deep to swim. 
+talk:apparently not everything in this forest talks. The fish just swims.
+drink:as you sip the water, you feel cool inside, and suddenly heavy. Suddenly you begin to sink into the spring, but as water rushes into your nose, you find you can breath it as though it were air. In fact you can no longer feel the weight of the water, as you drift slowly to the bottom. As you reach the bottom, you see a treasure chest in front of you.
+ride the fish:I'm going to be honest with you, the fish is just setting the mood, I don't think you're going to be able to do much with this fish.
+eat:You try to catch the fish, but it just swims deeper into the water
+catch:You try to catch the fish, but it just swims deeper into the water
+swim:You jump into the spring. The water is cool, and seems to strengthen your whole body. You dive as deep as you can, but can't touch the bottom. 
+### Paths
+drink:14

@@ -1,0 +1,10 @@
+17
+As you walk slowly along the edge, you see a bridge in the distance. \n"There, we can cross up ahead" As you approach the bridge, a large figure appears beside it. At first, it appears to be a large lion, however as you approach, you see it's head is that of a woman, stern and fierce. She is beautiful, which makes her even more frightening.\n"Stay back!" The very small wizard draws his staff and leaps at the sphinx, drawing her away from the bridge. "You must go!" he yells, "Run!" 
+### Commands
+run:Turning towards the bridge, you run as fast as you can. Roars and explosions echo on the walls of the canyon. \n "Go, young adventurer. You will find the treasure you seek." As you run across the bridge, you see your friend and the sphinx tumbling down into the gorge, still wrestling as they disappear into the depths of the canyon. You don't stop running until you're deep in the forest.
+kill:You dive into the fight, charging at the sphinx's face. She launches you over the edge without a thought. Your fall seems to last a lifetime, death is mercifully fast.
+fight:You lunge towards the fray, but a forge paw throws you back, "STAY OUT OF THIS, CHILD!" shouts the sphinx. The wizard yells, "You cannot help me here, just run!"
+explore:Fire seems to be burning in the eyes of the Sphinx and the very small wizard. The bridge is just ten feet in front of you.
+### Paths
+run:13
+kill:0

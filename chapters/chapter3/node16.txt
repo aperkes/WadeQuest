@@ -1,0 +1,17 @@
+16
+you can keep going or hange a left
+### Commands
+explore:it's a library
+keep going: you keep going
+left: you go left, there's a cool thing ahead
+back:you go back
+get ye flask: You can't get ye flask!
+get the thing: you got your thing! Now you'll have a thing
+help:you can't go back, try looking for a way out.
+fly:Sorry, you can't fly. Maybe someday...
+walk:you walk into the library.
+door:the door is locked behind you, you can't get it open.
+### Paths
+back:15
+keep going:18
+left:17

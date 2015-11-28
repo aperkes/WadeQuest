@@ -1,0 +1,9 @@
+9
+"Many men have come, you are the first to solve my riddle. I will accompany you on your journey. If you wish, I can return you to your world, but I can bring you to treasures beyond your wildest dreams...if you wish. What would you like to do?"
+### Commands
+help:Do you want to go home, or look for treasure?
+home:Very well, come with me.\n You follow the Sphinx deeper into the woods, and see an open door. \n "There is your world. I hope to see you again someday"\n As you turn to say goodbye to the sphinx, you see only the bookshelf in your room. You are home.
+treasure:"A brave choice, climb on my back, there are evils far more dangerous than myself, and you are not yet prepared to face them."
+### Paths
+home:776
+treasure:10

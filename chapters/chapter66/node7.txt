@@ -1,0 +1,15 @@
+7
+You're on the steep edge of a cliff. There's a mongoose.
+### Commands
+look:the view is lovely. The mongoose is walking slowly towards you.
+fly:You throw yourself majestically into the air, sadly you still can't fly. The mongoose looks on, but does nothing.
+die:Why would you do that? well now you're dead
+fight: always fighting things. The mongoose pushes you off the cliff. Too bad you didn't have a snake.
+befriend the mongoose: the mongoose is a coy beast. She is not interested in friendship.
+climb: you climb to safety. You're at the top of a beautiful mountain. Huzzah!
+SAVE:and we're back
+### Paths
+die:0
+fight:0
+climb:777
+fly:0

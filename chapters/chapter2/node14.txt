@@ -1,0 +1,11 @@
+14
+The chest has no lock.
+### Commands
+help:I wonder what's in the chest.
+explore:you can see clearly through the water. The fish is now swimming far above you, apparently undisturbed by your presence. 
+talk:you try to speak, but only "blub blub blub" comes out. However the fish seems to respond and swims down, now circling the chest.
+chest:As you approach the chest it opens slowly. In it, you see a small, shiny object. On closer inspection, it is the key to your door. Suddenly, water begins rushing into the chest, and you are carried with it. The water sucks you down and you fall, landing briskly on your bed.\nAs you look around, your room is the same as when you left it. Your clothes are dry and your window looks out to your yard once again. The key is on your desk, a small pool of water spreading across the table. 
+open:As you approach the chest it opens slowly. In it, you see a small, shiny object. On closer inspection, it is the key to your door. Suddenly, water begins rushing into the chest, and you are carried with it. The water sucks you down and you fall, landing briskly on your bed.\nAs you look around, your room is the same as when you left it. You clothes are dry and your window seems to look out to your yard once again. The key is on your desk, a small pool of water spreading across the table. 
+### Paths
+chest:777
+open:777

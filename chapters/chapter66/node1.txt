@@ -1,0 +1,15 @@
+1
+This is a beautiful place
+### Commands
+get ye flask: You can't get ye flask!
+help:you might try moving somehow
+look:There's really not a lot to see...
+fly:Psh, like you can do that. Try again in a few chapters
+walk:Off we go!
+SAVE:and we're back
+swim:How did you know? Into the water we go!
+die:Why would you do that? well now you're dead
+### Paths
+walk:2
+swim:3
+die:0

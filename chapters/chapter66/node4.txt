@@ -1,0 +1,17 @@
+4
+Man, you totally beat up that old man. How do you feel about that? \n Anyway, The woods seem to be getting a little thinner, and there are some big boulders. It seems like you're headed up a mountain.
+### Commands
+look:well, other than the boulders, it's pretty tame. Oh wait, there's a snake in front of you
+fly:Psh, like you can do that. Try again in a few chapters
+SAVE:and we're back
+pick up the snake: You probably though this was going to end poorly, but it turns out the snake is very friendly. Now you have a new friend.
+bite the snake: I should have known. The snake is tasty
+walk: playing it safe eh? the snake doesn't bother you, and you keep going.
+die:Why would you do that? well now you're dead
+fight the snake: the snake fights back. This is no old man. It bites you, you pass out and die.
+### Paths
+die:0
+fight the snake:0
+bite:7
+walk:7
+pick up the snake: 9

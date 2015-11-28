@@ -1,0 +1,10 @@
+0
+you died. Would you like to start over or quit?
+### Commands ###
+start:starting over...
+quit:quitting...
+SAVE:and we're back
+### Paths ###
+start:1
+quit:777
+

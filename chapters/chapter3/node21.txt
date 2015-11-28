@@ -1,0 +1,15 @@
+21
+here you see the monster. You have to fight it. You can die here. Especially if you don't have a sword. You can try to run, that might not actually work
+### Commands
+explore:it's a library
+keep going:no can do, there's a big monster in the way. 
+back:I don't think you can do that. The monster blocked you off. 
+get ye flask: You can't get ye flask!
+fight:You fight the monster, if you have a sword you kill it. 
+help:you can't go back, try looking for a way out.
+fly:Sorry, you can't fly. Maybe someday...
+walk:you walk into the library.
+door:the door is locked behind you, you can't get it open.
+### Paths
+fight:22
+die:0

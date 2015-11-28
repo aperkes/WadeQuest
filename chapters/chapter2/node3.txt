@@ -1,0 +1,21 @@
+3
+As you catch your breath, you hear a small voice say, "hello!" \n You look beside you to see a small man with a long beard, and dazzling green eyes. \n He's wearing a robe of sorts, and a floppy, pointed hat. He seems to be some sort of very small wizard. \n "I'm the very small wizard," he says. "Do you need some help?"
+### Commands
+explore:you look around, it's quite dark by now, and there are eyes shining in the darkness. The small wizard is still looking at you, expectantly.
+no: "Why of course you do, let's go!" The very small wizard grabs your hand and pulls you into the trees, following a very small path that you hadn't noticed.
+yes: "Alright then, off we go!" The very small wizard grabs your hand and pulls you into the trees, following a very small path that you hadn't noticed.
+fight: You try to fight the wizard, but he grabs your hand and pulls you into the trees mumbling, "every time..."
+get ye flask: You can't get ye flask!
+help:"My pleasure!" says the wizard, and pulls you into the woods
+run:You run off into the woods, the wizard calls, "Wait! Come back! You'll running right towards her!"
+fly:Sorry, you can't fly. Maybe someday...
+SAVE:you can't save here
+walk: You walk off into the woods, following a small trail, but the very small wizard follows you. \n "Oh good, this is the way to my house," he says.
+window: The window is gone
+### Paths
+fight: 5
+run: 4
+walk: 5
+yes: 5
+no: 5
+help: 5

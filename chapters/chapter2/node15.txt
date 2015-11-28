@@ -1,0 +1,31 @@
+15
+As you walk, it seems that the darkness was not from night, but from the thick trees overhead. You see that it's actually mid afternoon, as you approach a ravine.
+### Commands
+explore:there's a bridge nearby, but the ropes have been slashed. The ravine is way too far to jump. The trees are pretty thin here.
+help:there must be away across, you have a wizard afterall.
+cut down a tree:"Alright, not sure if my magic will work on these old things, but I'll give it a shot" The wizard brandishes his stalf and mutters under his breath, suddenly, a flame leaps from his stalf and surround a tree. After 5  long    seconds...the tree crashes down, falling squarely across the ravine.
+cut down tree:"Alright, not sure if my magic will work on these old things, but I'll give it a shot" The wizard brandishes his stalf and mutters under his breath, suddenly, a flame leaps from his stalf and surround a tree. After 5  long    seconds...the tree crashes down, falling squarely across the ravine.
+cut tree:"Alright, not sure if my magic will work on these old things, but I'll give it a shot" The wizard brandishes his stalf and mutters under his breath, suddenly, a flame leaps from his stalf and surround a tree. After 5  long    seconds...the tree crashes down, falling squarely across the ravine.
+talk to wizard:"We could probably build a bridge out of something, what do you suggest?"
+ask the wizard:"We could probably build a bridge out of something, what do you suggest?"
+fell a tree:"Alright, not sure if my magic will work on these old things, but I'll give it a shot" The wizard brandishes his stalf and mutters under his breath, suddenly, a flame leaps from his stalf and surround a tree. After 5  long    seconds...the tree crashes down, falling squarely across the ravine.
+cut a tree:"Alright, not sure if my magic will work on these old things, but I'll give it a shot" The wizard brandishes his stalf and mutters under his breath, suddenly, a flame leaps from his stalf and surround a tree. After 5  long    seconds...the tree crashes down, falling squarely across the ravine.
+fix:"Sorry, *name*, I can't do that"
+repair:"Sorry, *name*, I can't do that"
+build a bridge:"How do you plan to do that?"
+build a bridge with a tree:"Alright, not sure if my magic will work on these old things, but I'll give it a shot" The wizard brandishes his stalf and mutters under his breath, suddenly, a flame leaps from his stalf and surround a tree. After 5  long    seconds...the tree crashes down, falling squarely across the ravine.
+use a tree:"Alright, not sure if my magic will work on these old things, but I'll give it a shot" The wizard brandishes his stalf and mutters under his breath, suddenly, a flame leaps from his stalf and surround a tree. After 5  long    seconds...the tree crashes down, falling squarely across the ravine.
+fight:"How are we supposed to fight a ravine, kid? You're always wanting to fight!"
+get ye flask:Someday, you'll get ye flask, right now you should get ye butt across that ravine somehow.
+fly:"sorry kid, I'm no dragon. I can't help you there."
+jump:You make a running leap, falling 20 feet short of the other side. That probably was a poor choice. You fall for what seems like ages.
+SAVE:..
+walk:"Keep walking, eh? Probably a good choice."
+### Paths
+jump:0
+cut down a tree:16
+fell a tree:16
+cut a tree:16
+cut down tree:16
+cut tree:16
+walk:17

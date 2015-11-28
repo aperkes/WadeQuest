@@ -1,0 +1,7 @@
+8
+You're in a beautiful meadow with a moose. Happy day! have a look around.
+### Commands
+look: actually it's just the meadow and the moose. That's the end!
+SAVE:and we're back
+### Paths
+look:777

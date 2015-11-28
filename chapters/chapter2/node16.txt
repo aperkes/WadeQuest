@@ -1,0 +1,13 @@
+16
+You walk gingerly across the bridge. On the other side, the trees begin to be more regular. After walking for a bit, the very small wizard says, "I must leave you here. This treasure you seek was never meant for me. You will be safe on this side. I hope to meet you again someday." And with that he vanished in a twirl of his cloak.
+### Commands
+explore:The trees all look quite similar, infact you suspect that they may have been planted by someone.
+climb a tree:The trees are perfectly smooth, you slide right down.
+cut:The wizard's gone, also, I it doesn't look like you could cut these trees.
+walk:You keep walking, the trees are so evenly spaced that it feels like you're not really getting anywhere. 
+keep going:You keep walking, the trees are so evenly spaced that it feels like you're not really getting anywhere. 
+help:There's honestly not a lot to do. Might as well keep going.
+jump:You jump up and down. Pretty exciting stuff.
+SAVE:you can't save here
+### Paths
+walk:18

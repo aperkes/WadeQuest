@@ -1,0 +1,25 @@
+3
+You're swimming along in a lovely little stream.
+### Commands
+look:It's pretty hard to see, what with all the water in your eyes
+goggles: nice, you can see there's a waterfall, but it's still pretty far off. It seems like there might be a cave underwater.
+get out: no can do, the streams actually moving pretty fast. Come to think of it, this seems sort of dangerous...
+fly:Psh, like you can do that. Try again in a few chapters
+walk: too deep for that, sorry bro
+deeper: that seems a little counterintuitive. Luckily you find yourself in a cave
+cave: well ok.
+underwater: interesting plan. Oh hey, there's a cave! I didn't see that coming.
+die:Why would you do that? well now you're dead
+drown: yep, you drown. that was easy.
+SAVE:and we're back
+keep swimming: well ok, on we go.
+stop swimming: well ok, but now you're drowning
+swim: well, you're doing that anyway, the river carries you along farther
+### Paths
+swim:6
+die:0
+drown:0
+underwater:5
+cave:5
+keep swimming:6
+

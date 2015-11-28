@@ -1,0 +1,12 @@
+8
+"Last Chance"
+### Commands
+fight the sphinx:Desperately, you lunge at the sphinx. Before you realize what's happening, you're pinned. The last thing you see is her angry claws, streaking towards your neck.
+rug: "That is correct"
+carpet: "That is correct"
+*%*: "Incorrect" \n The Sphinx moves towards you. The last thing you see is her sharp claws.
+### Paths
+fight the sphinx:0
+rug:9 
+carpet:9
+*%*:0

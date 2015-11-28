@@ -1,0 +1,22 @@
+5
+The cave is dark and spooky. It's hard to see. You hear water dripping
+### Commands
+look: yep, still hard to see. if only there was some sort of lightswitch
+lightswitch: nice try, you're in a cave.
+light your torch: you don't have a torch
+drink the water: luckily you don't get some disease. You should be more careful. 
+feel around: Feeling around the walls, it seems like there's a tunnel heading out. On the other side of the cave, you fall in deep water.
+swim: well, if you insist, you swim out of the cave.
+fly:even if you could fly, you're in a cave remember?
+die:Why would you do that? well now you're dead
+check the tunnel: it's a tunnel, it seems like there's a light at the end of it.
+wait: as you wait, your eyes adjust, it seems there's a tunnel with a dim light
+leave: how do you want to leave
+secret passage: man, how did you know. You leave through the secret passage
+through the tunnel: fair enough, off you go
+SAVE:and we're back
+### Paths
+die:0
+swim:6
+through the tunnel:7
+secret passage: 8

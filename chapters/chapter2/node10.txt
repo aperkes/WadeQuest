@@ -1,0 +1,16 @@
+10
+As you walk, the Sphinx begins, "I was not always so distrustful of strangers. When I was young, I met a young wizard, just a little shorter than yourself.\nHe offered to help me in watching over this forest. But he betrayed me, and tried to take my life. If you even meet him, you must not let him speak, or he will surely trick you."\n She falls silent as you come to a deep gorge. The sphinx turns to you and says, "I can help you, but this is your quest, not mine. What would you like to do?"
+### Commands
+help:Is there a way over the gorge? If not you'll just have to go around.
+explore:The trees have thinned out a bit, and you can see the gorge stretches as far as you can see. There's an old bridge that seems to have been burned. Although it's only 20 feet across, the gorge drops off for hundreds of feet below you.
+cut down a tree:you don't have anything to chop down a tree, even the sphinx powerful legs would be no use.
+fly:"Sadly I am no dragon. I can leap farther than most, but I cannot fly"
+jump:"This is far, even for me. But I believe I can do it. Hold on tight." The Sphinx walks to the endge of the trees and runs with unthinkable speen towards the edge. Just before plunging into the gulf below, she leaps smoothly into the air. After what feels like hours, you land gently on the opposite cliff. \n"You are brave, there's not far to go now."
+leap:"This is far, even for me. But I believe I can do it. Hold on tight." The Sphinx walks to the endge of the trees and runs with unthinkable speen towards the edge. Just before plunging into the gulf below, she leaps smoothly into the air. After what feels like hours, you land gently on the opposite cliff. \n"You are brave, there's not far to go now."
+walk:"There were once many bridges across this canyon, perhaps we will find one further on." You walk along the edge of the canyon, the steep drop just a few feet to your right.
+go around:"There were once many bridges across this canyon, perhaps we will find one further on." You walk along the edge of the canyon, the steep drop just a few feet to your right.
+### Paths
+walk:11
+jump:12
+leap:12
+go around:11

@@ -1,0 +1,26 @@
+2
+The sun is setting quickly, and you hear animal calls and rustling in the grass. \n ... . . . \n Something is coming behind you! Do you want to stay or run? 
+### Commands
+explore:there's a big stick on the ground, you could use it to fight if you act fast.
+get the stick: you pick up the stick, and turn. \n As you do the animal leaps from the grass, knocking the stick out of your hand and standing in front of you.
+fight: you turn to face the unknown assailant
+stay: you stay very still, the animal walks calmly into the clearing.
+get ye flask: You can't get ye flask!
+help:there's no one to help you here, stay or run?
+run:you run off into the darkness, pushing through bushes and brush, until you come to a small clearing. It seems like nothing followed you.
+fly:Sorry, you can't fly. Maybe someday...
+SAVE:you can't save here
+sleep: Interesting choice, hoping it's a dream? When you open your eyes, you see two great green eyes just in front of yours.
+walk: You start to walk away, but the animal arrives first and blocks your path
+window:Your window appears beside you and you jump through it. 
+### Paths
+sleep:4
+stay:4
+fight:4
+get the stick:4
+pick up the stick:4
+grab the stick: 4
+take the stick: 4
+run: 3
+walk: 4
+window: 0

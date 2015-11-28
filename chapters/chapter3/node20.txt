@@ -1,0 +1,18 @@
+20
+here you can go straight for the sword, or turn left for the monster, let's say you can save too, if you're clever...
+### Commands
+explore:it's a library
+SAVE:You save before you fight the monster. 
+keep going: you keep going, heading for the sword
+left: you go left, there's a monster coming up.
+back:you go back
+get ye flask: You can't get ye flask!
+get the thing: you got your thing! Now you'll have a thing
+help:you can't go back, try looking for a way out.
+fly:Sorry, you can't fly. Maybe someday...
+walk:you walk into the library.
+door:the door is locked behind you, you can't get it open.
+### Paths
+back:15
+keep going:19
+left:21

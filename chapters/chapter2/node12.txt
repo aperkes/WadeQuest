@@ -1,0 +1,12 @@
+12
+As you and the sphinx walk quietly through the this forest, you notice profound silence all around you. Suddenly the Sphinx stops, "This is as far as I can go. The treasure that lies ahead is not for me. I hope to see you again, but this is where I must leave you. Good luck" Before you an protest, she turns and disappears silently into the woods. Now you are alone.
+### Commands
+help:All there is to do is walk on alone.
+explore:The trees look identical in every direction. Impossibly so. In fact you have the distinct feeling that this forest was planted.
+walk:As you walk past trees, it seems that every step brings you to the same point. However after a few minutes of this maddening journey, you come to a spring.
+run:As you run past trees, it seems that every step brings you to the same point. However after a few minutes of this maddening journey, you come to a spring.
+follow:You try to follow, but each step you take seems to bring you to the same point. However, after a few minutes, you suddenly find yourself at a spring.
+### Paths
+walk:13
+run:13
+follow:13

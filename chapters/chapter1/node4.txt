@@ -1,0 +1,13 @@
+4
+Now you're in the living room, there are lovely pictures on the wall and cozy couches. 
+### Commands
+help:You can go over to the kitchen or go to your bedroom door.
+explore:Nothing weird here, it's just like your living room always is. The deer is looking inquisitive outside. The kitchen is nearby, and you can see your bedroom door.
+picture:Amy made those, she did a great job. Let's leave them alone.
+door:You walk over towards your bedroom.
+kitchen:you walk over to the kitchen
+bedroom:you walk over to your bedroom door. 
+### Paths
+kitchen:3
+bedroom:5
+door:5

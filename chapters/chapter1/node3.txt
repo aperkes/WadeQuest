@@ -1,0 +1,14 @@
+3
+Now you're in the kitchen, there are knives and all sorts of things. You can see your bedroom door from here, where would you like to go? 
+### Commands
+help:You can go over to the living room or go to your bedroom door.
+explore:The fridge is full of food, the dishes are clean.
+knife:It's not a good time to use knives.
+stove:You shouldn't turn on the stove right now. 
+door:You walk over towards your bedroom.
+bedroom:You walk over towards your bedroom. 
+living:You walk back to the living room
+### Paths
+living:4
+bedroom:5
+door:5

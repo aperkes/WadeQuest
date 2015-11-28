@@ -1,0 +1,23 @@
+5
+You walk together through the woods. "I've been here for quite sometime. The trees are quite lovely, don't you think?\nThat monster you heard in the woods is the sphinx, she prowls around, attacking unsuspecting travellers, it's lucky I found you!\nSo what are you looking for?"
+### Commands
+explore:the woods are still dark, but there seems to be a faint glow all around the very small wizard. Your shadow stretches far behind you, it makes you a little dizzy.
+fight:"a fight eh? I wouldn't recommend that. Things can get awfully nasty here. Where are you headed anyway?"
+get ye flask: "Sorry, you can't get ye flask here. In fact, we haven't had flasks in these parts for years. Not since Dennis."
+Dennis:"You don't know Dennis? Ah yes, you wouldn't, would you? Nevermind him, he seems like something that will come up a later chapter."
+forest:We get all types in this forest, you really never know what you're going to find. 
+hat:"It's just a hat, don't worry about it."
+staff:"This staff is actually just a stick, but it make me feel better."
+help:(just type what you want to know more about. Guides like this only come along once a chapter or 2)
+treasure:"Ahh, treasure you say. I think I might just know what you're looking for. This way!"You walk deeper into the forest. As you do, it seems to be getting lighter.
+sphinx:"Yes, the sphinx...you know she wasn't always so violent. We were once friends even. We were working together to try to make these woods safe for people. But she turned violent. These days, it seems I spend half my time protecting people like you from her" 
+key:"A key you say? Let's see...Actually, I think I might know where we can find that, come this way." You walk deeper into the forest. As you do, it seems to be getting lighter.
+*$*:"Hm, never heard of that. Can't help you there. Anything else you want?"
+home:"Ahh, you want to go home? Well if you insist." The Wizard begins muddering something under his breath, he taps you on the forehead with his stalf. 
+save:"You can only save in certain places. This is one of those places! Type 'SAVE' to save."
+run:You run off into the woods, the wizard calls, "Wait! Come back! You'll running right towards her!"
+SAVE:Good deal.
+### Paths
+treasure:15
+key:15
+home:0

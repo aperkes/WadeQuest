@@ -1,0 +1,28 @@
+1
+You're in your room. Have a look around, play with some things, adventure is all over the place you know.
+### Commands
+explore:It's your room, you know? You've got your bed over there, your box of toys with '*name*' on it, your door and window. It's pretty tidy.
+get ye flask: You can't get ye flask!
+help:I wonder what's going on outside...
+fly:Sorry, you can't fly. Maybe someday...
+sleep: You go to sleep. When you wake up it's a bit darker outside.
+nap: You go to sleep. When you wake up it's a bit darker outside.
+walk: you walk around, but you're still in your room. 
+look out the window:As you're looking out the window, you realize that a dense jungle has grown in your yard. \n As you step back, you realize a jungle has grown up in your room as well. Your room is gone, and you're alone in the noisy and humid jungle.
+window:As you're looking out the window, you realize that a dense jungle has grown in your yard. \n As you step back, you realize a jungle has grown up in your room as well. Your room is gone, and you're alone in the noisy and humid jungle.
+open box:It all your things, you've got books and legos and some nerf guns.
+open chest:It all your things, you've got books and legos and some nerf guns.
+nerf gun:You play with the nerf gun for a bit, but it's not that much fun by yourself.
+play with toys: . . . . . \n That's probably enough toys right now, I wonder what's going on outside.
+play legos: . . . \n Those were some fun legos
+play with legos: . . . \n Those were some fun legos
+play lego: . . . \n Those were some fun legos
+book:These books are great! Maybe we should look outside and see what's going on. 
+books:These books are great! Maybe we should look outside and see what's going on. 
+unlock: You can't remember where you put the key.
+door: The door is locked, you must have locked it.
+break: Hm, you really shouldn't break things in your room. I'm going to have to say no at this point. Maybe when you're older. 
+### Paths
+window:2
+look out the window:2
+

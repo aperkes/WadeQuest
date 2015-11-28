@@ -1,0 +1,13 @@
+14
+here you learn another thing
+### Commands
+explore:it's a library
+learn:you learn another thing! this is some good info for monster fighting. 
+back:you go back
+keep going:15
+get ye flask: You can't get ye flask!
+help:you can't go back, try looking for a way out.
+fly:Sorry, you can't fly. Maybe someday...
+### Paths
+back:10
+keep going:15

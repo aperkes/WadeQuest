@@ -1,0 +1,25 @@
+4
+Standing right in front of you in a Sphinx. Her face is beautiful and terrifying, and her lion-body is agile and smooth. \n "Hello," she says, eying you hungrily.
+### Commands
+explore: many eyes now fill the forest, the moon is shining down on your clearing. There doesn't seem to be anything around the you could use.
+run: You try to run, but the Sphinx blocks your escape. 
+walk: You try to walk away, but the Sphinx moves in front of you. 
+get the stick: You pick the stick up again. The Sphinx watches you with curiosity.
+fight: As soon as you move to fight, the Sphinx pins you on the ground. A great claw comes down towards your face.
+stay: You stay in front of the Sphinx. She doesn't move either.
+get ye flask: You can't get ye flask!
+help: Usually Sphinxes as riddles, maybe she's waiting for you to respond.
+hello: The Sphinx replies,
+speak: The Sphinx replies,
+talk: The Sphinx replies,
+fly:Sorry, you can't fly. Maybe someday...
+SAVE:you can't save here
+window:Your window is gone
+### Paths
+hello:6
+speak:6
+talk:6
+fight:0
+run: 6
+walk: 6
+stay: 6

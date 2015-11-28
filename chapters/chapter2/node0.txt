@@ -1,0 +1,16 @@
+0
+You're wake up in your bed in your room.
+### Commands
+explore:It's your room, you know? You've got your bed over there, your box of toys, your door and window. It's pretty tidy.
+get ye flask: You can't get ye flask!
+help:I wonder what's going on outside...
+fly:Sorry, you can't fly. Maybe someday...
+sleep: You go to sleep. When you wake up it's a bit darker outside.
+walk: you walk around, but you're still in your room. 
+window: Once more, you find yourself in a dense jungle, the noise is approaching rapidly.
+open box: It's just your things. There's nothing too crazy.
+unlock: You can't remember where you put the key.
+door: The door is locked, you must have locked it.
+break: Hm, you really shouldn't break things in your room. I'm going to have to say no at this point. Maybe when you're older. 
+### Paths
+window: 2

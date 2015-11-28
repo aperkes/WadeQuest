@@ -1,0 +1,10 @@
+11
+As you walk slowly along the edge, you see a bridge in the distance. \n"There, we can cross up ahead" As you approach the bridge, a small figure appears in front of it. He is wearing a tattered cloak, and his dark beard rests neatly across his chest.    \nSuddenly, he draws a short staff from beneath his cloak, and the Sphinx charges, bucking you over the small man.\n"This is the evil wizard I warned you about. You must run!"
+### Commands
+run:Turning towards the bridge, you run as fast as you can. Roars and explosions echo on the walls of the canyon. \n "Go, young adventurer. You will find the treasure you seek." As you run across the bridge, you see your friend and the wizard tumbling down into the gorge, still wrestling as they disappear into the depths of the canyon. You don't stop running until you are deep in the forest.
+kill the wizard:You dive into the fight, reaching for the wizards neck. However, as your hands close around him, a stream of fire appears and launches you over the ends of the cliff. Your fall seems to last a lifetime, death is mercifully fast.
+fight:You lunge towards the fray, but an invisible force pushed you away, "STAY OUT OF THIS, BOY," shouts the wizard. The Sphinx yells, "You cannot help me here, just run!"
+explore:Fire seems to be burning in the eyes of the Sphinx and the very small wizard. The bridge is just ten feet behind you.
+### Paths
+run:13
+kill:0
