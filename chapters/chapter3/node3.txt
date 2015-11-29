@@ -1,5 +1,5 @@
 3
-On the floor there's a mosaic of a great beast. It's eyes are shining, and seem to follow you as move.\nThe corridors head West, South, and East.
+The corridor is wide here.\nOn the floor below you there's a mosaic of a great beast. It's eyes are shining, and seem to follow you as you move.\nThe corridors head West, South, and East.
 ### Commands
 explore: Other than the creepy beasts, the book shelves are very tall.\n Sadly, they are too smooth to climb.
 help: Sometimes, particularly if there's nothing else to see, help will give you useful tips. 

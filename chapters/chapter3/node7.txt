@@ -6,5 +6,7 @@ read:The tile says, "The password is 'Petrichor'"
 tile:The tile says, "The password is 'Petrichor'"
 word:The tile says, "The password is 'Petrichor'"
 south: You walk south
+back: You go back to the south.
 ### Paths
-south:0
+south:5
+back:5

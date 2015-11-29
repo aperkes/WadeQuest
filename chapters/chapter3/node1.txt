@@ -22,5 +22,5 @@ unlock:You get the key off the table and unlock the door, and open it.
 door:You get the key off the table and unlock the door, and open it. 
 break: Hm, you really shouldn't break things in your room. I'm going to have to say no at this point. Maybe when you're older. 
 ### Paths
-door:3
-unlock:3
+door:2
+unlock:2

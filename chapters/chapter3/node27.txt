@@ -1,0 +1,11 @@
+27
+You come to an opening. On the floor, there another carving of the beast from before.\n It's eyes glow in the torchlight.\nThere are paths leading north and west.
+### Commands
+explore: The rumbling is louder than ever now. You hear a terrifying roar.
+help:you should try exploring.
+north: You walk north
+east: You walk east
+west: The door closed behind you, you can't go that way.
+### Paths
+north:29
+east:28

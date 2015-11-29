@@ -1,0 +1,13 @@
+26
+You walk west along the dark corridor, stacks of books on your right and left.\nWith each step, the rumbling grows louder ahead of you.\nThe air is becoming more and more putrid.\nIn front of you, you see a wall of solid stone with two torches. The stone is carved showing an approaching storm.\nAir seems to be blowing out of wall.
+### Commands
+explore: As you look more closely, you realize there's a small golden compass set in the stone.\nAbove it, words shine faintly in the carved stone: "Speak the password to continue". 
+compass: The compass is stuck in the stone. It won't budge.
+help: You came in from the east. If you don't have a password, you should explore some more.
+east: You walk east
+west: The path is blocked
+petrichor: The stone wall splits down the middle with a crash like lightning.\n A damp wind rushes out, pushing you backwards.\n Where the wall had been, you see a stone tunnel lit my torches.\n You walk slowly into the tunnel, as the tunnel slides shut behind you.
+### Paths
+east:24
+back:24
+petrichor:27

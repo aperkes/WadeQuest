@@ -1,5 +1,5 @@
 16
-You come to another opening. There are paths leading north, south, and east.
+You come to another opening. There are paths leading north, south, and west.
 ### Commands
 explore: Nothing to see here, just more books.
 help: If you are ever complete stuck, you can type "QUIT" to quit a chapter.

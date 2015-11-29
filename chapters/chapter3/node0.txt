@@ -1,4 +1,4 @@
-1
+0
 You're back in your room. What do you wan't do now?
 ### Commands
 explore:It's your room, you know? You've got your bed over there, your box of toys with '*name*' on it. The key is on the desk.
