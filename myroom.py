@@ -217,22 +217,6 @@ def smart_match(choice,node):
         if r'*%*' in node.commands and len(outcome) == 0: ## Allows for specific result when choice isn't in commands. *%* represents anything not specified.
             outcome.append(node.commands[r'*%*'])
             outcome.append(node.paths[r'*%*'])
-## More functions: This one opens a file. it's rather clever.
-        if '$OPEN' in outcome[0]:
-            prompt_list = outcome[0].split()
-            open_file = prompt_list[1]
-            space = ' '
-            dialog = space.join(prompt_list[2:])
-            os.system('open ' + open_file)
-            outcome[0] = dialog
-## This allows you to add a state if the right command is given.
-        if '$ADD' in outcome[0]:
-            prompt_list = outcome[0].split()
-            space = ' '
-            dialog = space.join(prompt_list[2:])
-            add_object = promt_list[1]
-            STATE.append(add_object)
-            outcome[0] = outcome[0].split()[2]
         if len(outcome) == 0:
             print_fail()
             choice = raw_input(" ")
@@ -240,7 +224,28 @@ def smart_match(choice,node):
                 outcome = ['',776]
             else:
                 outcome = smart_match(choice,node)
-#   print 'returning outcome: '
+### More functions: This one opens a file. it's rather clever.
+        if '$OPEN' in outcome[0]:
+            print outcome
+            raw_input('continue debug:')
+            prompt_list = outcome[0].split()
+            open_file = CURRENT_CHAPTER + '/' + prompt_list[1]
+            space = ' '
+            dialog = space.join(prompt_list[2:])
+            raw_input("Current Chapter: " + CURRENT_CHAPTER)
+            os.system('open ' + open_file)
+            outcome[0] = dialog
+## This allows you to add a state if the right command is given.
+        if '$ADD' in outcome[0]:
+            prompt_list = outcome[0].split()
+            space = ' '
+            dialog = space.join(prompt_list[2:])
+            add_object = prompt_list[1]
+            STATE.append(add_object)
+            outcome[0] = dialog
+            print outcome
+            raw_input("continue?")
+    print 'returning outcome: '
 #   print outcome
     return outcome
 
