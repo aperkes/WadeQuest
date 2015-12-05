@@ -1,0 +1,14 @@
+28
+It's a dead end. The way back is east.
+### Commands
+explore: The rumbling here is quite deafening. There is a small hole in the wall. 
+hole: As you look into the little hole, you spot a mouse. It has a rather fierce look in its eye.
+talk to mouse: Surprisingly the mouse responds. "Hello adventurer. I'm sure you've had a long journey. What can I do for you?"
+talk to the mouse: Surprisingly the mouse responds. "Hello adventurer. I'm sure you've had a long journey. What can I do for you?"
+help:Exploring always helps. Sometimes a mouse is not just a mouse.
+east: You walk east
+back: you go back. 
+### Paths
+east:27
+talk to mouse:60
+talk to the mouse:60
