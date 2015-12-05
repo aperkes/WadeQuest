@@ -172,37 +172,39 @@ def smart_match(choice,node):
         else: 
             'Returning to game...'
             outcome = ["What do you want to do? "]
+    if '*!*' in node.commands:
+        outcome[0] = node.commands['*!*']
+        if '*!*' in node.paths:
+            outcome[1] = node.paths['*!*']
+            del node.paths['*!*']
+        del node.commands['*!*']
     else:
         outcome = []
  # Check for conditional, determine result....
-        if '!!' in node.commands:
-            states = node.commands['!!'].split(',')
-            for state in states:
-                STATE.append(state.strip())
-            del node.commands['!!'] 
-        if '??' in node.commands:
+        if '*?*' in node.commands:
             print 'current commands'
             print node.commands
             print node.paths
             print 'found ??'
-            checks = node.commands['??'].split(',')
-            print checks
-            for check in checks:
+            #checks = node.commands['*?*'].split(',')
+            check_dict = (check.split(',') for check in node.commands['*?*'].split(';'))
+            #for check in checks:
+            for check in check_dict:
 #if the check is in your state, do nothing
                 print 'checking each check'
-                if check.strip() in STATE:
+                if check_dict[check].strip() in STATE:
                     print 'found ' + check.strip()
                     pass
 # If the check isn't in your state, it deletes the option from commands
                 if check.strip() not in STATE:
                     print 'cannot find ' + check.strip()
                     print 'deleting option'
-                    del node.commands[check]
-                    del node.paths[check]
+                    del node.commands[check_dict[check]]
+                    del node.paths[check_dict[check]]
                     print node.commands
                     print node.paths
 # Del the conditional commands (otherwise that will cause all sorts of problems)
-            del node.commands['??']
+            del node.commands['*?*']
         for phrase in find_phrases(choice):
             if phrase in node.commands:
     #           print 'phrase added: ' + phrase
@@ -215,6 +217,22 @@ def smart_match(choice,node):
         if r'*%*' in node.commands and len(outcome) == 0: ## Allows for specific result when choice isn't in commands. *%* represents anything not specified.
             outcome.append(node.commands[r'*%*'])
             outcome.append(node.paths[r'*%*'])
+## More functions: This one opens a file. it's rather clever.
+        if '$OPEN' in outcome[0]:
+            prompt_list = outcome[0].split()
+            open_file = prompt_list[1]
+            space = ' '
+            dialog = space.join(prompt_list[2:])
+            os.system('open ' + open_file)
+            outcome[0] = dialog
+## This allows you to add a state if the right command is given.
+        if '$ADD' in outcome[0]:
+            prompt_list = outcome[0].split()
+            space = ' '
+            dialog = space.join(prompt_list[2:])
+            add_object = promt_list[1]
+            STATE.append(add_object)
+            outcome[0] = outcome[0].split()[2]
         if len(outcome) == 0:
             print_fail()
             choice = raw_input(" ")
