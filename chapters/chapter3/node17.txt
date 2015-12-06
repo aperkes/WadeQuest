@@ -3,7 +3,6 @@ It's a dead end. The way back is north.
 ### Commands
 explore: It looks quite similar to the rest of the library, but you notice a small blue lever on the wall.
 lever: As you pull the lever, a few books slide out of the way to reveal a message carved in wood.\n"Green levers are traps. Be Careful." 
-pull: As you pull the lever, a few books slide out of the way to reveal a message carved in wood.\n"Green levers are traps. Be Careful." 
 help: Did you know our brains have a hard time with negative statements?\nSo does this game. If you say, "don't melt the wizard" the game will only see "melt the wizard"\nUnless Ammon fixes it someday...
 north: You walk north
 back: You go back

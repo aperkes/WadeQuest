@@ -7,7 +7,6 @@ help:Do you think anything is going on back in your house?
 fly:Sorry, you can't fly. Maybe someday...
 sleep:You go to sleep. When you wake up it's a bit darker outside.
 nap:You go to sleep. When you wake up it's a bit darker outside.
-walk:you walk around, but you're still in your room. 
 window:There's a deer hanging out in your yard, eating grass.\n Not too much is going on out there. 
 open box:It all your things, you've got books and legos and some nerf guns.
 open chest:It all your things, you've got books and legos and some nerf guns.
