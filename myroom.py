@@ -182,27 +182,27 @@ def smart_match(choice,node):
         outcome = []
  # Check for conditional, determine result....
         if '*?*' in node.commands:
-            print 'current commands'
+           # print 'current commands'
             print node.commands
             print node.paths
-            print 'found ??'
+           # print 'found ??'
             #checks = node.commands['*?*'].split(',')
             check_dict = (check.split(',') for check in node.commands['*?*'].split(';'))
             #for check in checks:
             for check in check_dict:
 #if the check is in your state, do nothing
-                print 'checking each check'
+               # print 'checking each check'
                 if check_dict[check].strip() in STATE:
-                    print 'found ' + check.strip()
+                   # print 'found ' + check.strip()
                     pass
 # If the check isn't in your state, it deletes the option from commands
                 if check.strip() not in STATE:
-                    print 'cannot find ' + check.strip()
-                    print 'deleting option'
+                   # print 'cannot find ' + check.strip()
+                   # print 'deleting option'
                     del node.commands[check_dict[check]]
                     del node.paths[check_dict[check]]
-                    print node.commands
-                    print node.paths
+                   # print node.commands
+                   # print node.paths
 # Del the conditional commands (otherwise that will cause all sorts of problems)
             del node.commands['*?*']
         for phrase in find_phrases(choice):
@@ -226,13 +226,13 @@ def smart_match(choice,node):
                 outcome = smart_match(choice,node)
 ### More functions: This one opens a file. it's rather clever.
         if '$OPEN' in outcome[0]:
-            print outcome
-            raw_input('continue debug:')
+           # print outcome
+           # raw_input('continue debug:')
             prompt_list = outcome[0].split()
             open_file = CURRENT_CHAPTER + '/' + prompt_list[1]
             space = ' '
             dialog = space.join(prompt_list[2:])
-            raw_input("Current Chapter: " + CURRENT_CHAPTER)
+           # raw_input("Current Chapter: " + CURRENT_CHAPTER)
             os.system('open ' + open_file)
             outcome[0] = dialog
 ## This allows you to add a state if the right command is given.
@@ -243,8 +243,8 @@ def smart_match(choice,node):
             add_object = prompt_list[1]
             STATE.append(add_object)
             outcome[0] = dialog
-            print outcome
-            raw_input("continue?")
+           # print outcome
+           # raw_input("continue?")
     print 'returning outcome: '
 #   print outcome
     return outcome
@@ -252,7 +252,9 @@ def smart_match(choice,node):
 def print_fail():
     possible_fails = ["You can't",
             "That won't work here",
-            "No can do, compadre",
+            "That won't work here",
+            "That won't work here",
+            "That won't work here",
             "No",
             "That doesn't make sense...",
             "Were those even words?",
