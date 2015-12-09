@@ -302,6 +302,7 @@ def run_node(node):
     if "SAVE" in choice and 'SAVE' in node.commands: 
         save_state(node)
 ## Some cheats to see what's going on for debug (or for laziness)
+## Because of the way this works, all cheating has to be done when you first arrive at a node
     while '1337' in choice:
         if choice == '1337 quit':
             choice = raw_input("Are you sure you want to quit? ")
@@ -319,6 +320,13 @@ def run_node(node):
         elif choice == '1337 show paths':
             print node.paths
             choice = raw_input("What do you want to do? ")
+        elif 'accio' in choice: 
+            state = choice.split()[-1]
+            STATE.append(state)
+            choice = raw_input("What do you want to do? ")
+        elif 'destroy' in choice: 
+            state = choice.split()[-1]
+            STATE.remove(state)
         elif 'skip to' in choice:
             print choice
             number = int(choice.split()[-1])
