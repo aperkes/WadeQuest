@@ -165,47 +165,67 @@ def smart_match(choice,node):
     if 'SAVE' in choice and not 'save' in node.commands: 
         outcome = ["You can't save here"]
     """
-    if choice == 'QUIT':
-        choice = raw_input("Are you sure you want to quit? ")
-        if choice.lower()[1] == 'y':
-            outcome = ['',776]
-        else: 
-            'Returning to game...'
-            outcome = ["What do you want to do? "]
+## This should all go into a function...
+# Check for conditional, determine result....
+   # print node.commands
+    if '*?*' in node.commands:
+       # print 'current commands'
+       # print node.commands
+       # print node.paths
+       # print 'found ??'
+        #checks = node.commands['*?*'].split(',')
+        check_dict = dict(check.split(',') for check in node.commands['*?*'].split(';'))
+        #for check in checks:
+        for check in check_dict:
+#if the check is in your state, do nothing
+           # print 'checking each check'
+## Revamp this, set condition based on upper/lower, since it always lower cases, this should work. 
+            if check.strip() in STATE:
+               # print 'found ' + check.strip()
+               # print STATE
+                try: #Fix upper case if it's there. 
+                    node.commands[check_dict[check].lower()] = node.commands[check_dict[check].upper()]
+                    del node.commands[check_dict[check].upper()]
+                except: #Otherwise, it's already there, so just leave it. 
+                    pass
+                try:
+                    node.paths[check_dict[check].lower()] = node.paths[check_dict[check]]
+                    del node.paths[check_dict[check]]
+                except:
+                    pass
+# If the check isn't in your state, it deletes the option from commands
+            if check.strip() not in STATE:
+               # print 'cannot find ' + check.strip()
+               # print 'deleting option'
+               # print STATE
+## Check if there's a lowercase command to delete, if so, delete it. 
+                try:
+                    node.commands[check_dict[check].upper()] = node.commands[check_dict[check]]
+                    del node.commands[check_dict[check]]
+                except: #Exceptions should only come if it's already been removed, in which case you can do nothing
+                    pass
+                #del node.commands[check_dict[check]]
+## Check if there's a paths, and if so delete it. 
+                try:
+                    node.paths[check_dict[check].upper()] = node.paths[check_dict[check]]
+                    del node.paths[check_dict[check]]
+
+                    #del node.paths[check_dict[check]]
+                except:
+                    pass
+               # print node.commands
+               # print node.paths
+# Del the conditional commands (otherwise that will cause all sorts of problems)
+## It turns out I have to leave this otherwise it can only check once, which is sub optimal
+        #del node.commands['*?*']
     if '*!*' in node.commands:
         outcome[0] = node.commands['*!*']
         if '*!*' in node.paths:
             outcome[1] = node.paths['*!*']
-            del node.paths['*!*']
-        del node.commands['*!*']
     else:
         outcome = []
- # Check for conditional, determine result....
-        if '*?*' in node.commands:
-           # print 'current commands'
-            print node.commands
-            print node.paths
-           # print 'found ??'
-            #checks = node.commands['*?*'].split(',')
-            check_dict = (check.split(',') for check in node.commands['*?*'].split(';'))
-            #for check in checks:
-            for check in check_dict:
-#if the check is in your state, do nothing
-               # print 'checking each check'
-                if check_dict[check].strip() in STATE:
-                   # print 'found ' + check.strip()
-                    pass
-# If the check isn't in your state, it deletes the option from commands
-                if check.strip() not in STATE:
-                   # print 'cannot find ' + check.strip()
-                   # print 'deleting option'
-                    del node.commands[check_dict[check]]
-                    del node.paths[check_dict[check]]
-                   # print node.commands
-                   # print node.paths
-# Del the conditional commands (otherwise that will cause all sorts of problems)
-            del node.commands['*?*']
         for phrase in find_phrases(choice):
+            phrase = phrase.lower()
             if phrase in node.commands:
     #           print 'phrase added: ' + phrase
                 outcome.append(node.commands[phrase])
@@ -245,7 +265,7 @@ def smart_match(choice,node):
             outcome[0] = dialog
            # print outcome
            # raw_input("continue?")
-    print 'returning outcome: '
+    #print 'returning outcome: '
 #   print outcome
     return outcome
 
@@ -281,6 +301,34 @@ def run_node(node):
         return 776
     if "SAVE" in choice and 'SAVE' in node.commands: 
         save_state(node)
+## Some cheats to see what's going on for debug (or for laziness)
+    while '1337' in choice:
+        if choice == '1337 quit':
+            choice = raw_input("Are you sure you want to quit? ")
+            if choice.lower()[1] == 'y':
+                outcome = ['',776]
+            else: 
+                'Returning to game...'
+                choice = raw_input("What do you want to do? ")
+        elif choice == '1337 current node':
+            print node.loc
+            choice = raw_input("What do you want to do? ")
+        elif choice == '1337 show commands':
+            print node.commands
+            choice = raw_input("What do you want to do? ")
+        elif choice == '1337 show paths':
+            print node.paths
+            choice = raw_input("What do you want to do? ")
+        elif 'skip to' in choice:
+            print choice
+            number = int(choice.split()[-1])
+            print number
+            nextnode = number
+            print 'skipping to ' + str(nextnode)
+            return nextnode
+        else: 
+            print "That wasn't actually a thing"
+            choice = raw_input("What do you want to do? ")
     outcome = smart_match(choice,node)
     while outcome == []:
         print_fail()

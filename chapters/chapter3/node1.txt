@@ -17,9 +17,13 @@ play with legos: . . . \n Those were some fun legos
 play lego: . . . \n Those were some fun legos
 book:These books are great! I wonder what's going on in the rest of the house...
 books:These books are great! I wonder what's going on in the rest of the house...
-unlock:You get the key off the table and unlock the door, and open it. 
-door:You get the key off the table and unlock the door, and open it. 
 break: Hm, you really shouldn't break things in your room. I'm going to have to say no at this point. Maybe when you're older. 
+open door:You get the key off the table and unlock the door, and open it. 
+open the door:You get the key off the table and unlock the door, and open it. 
+unlock door:You get the key off the table and unlock the door, and open it. 
+unlock the door:You get the key off the table and unlock the door, and open it. 
 ### Paths
-door:2
-unlock:2
+open door:2
+unlock the door:2
+open the door:2
+unlock door:2
