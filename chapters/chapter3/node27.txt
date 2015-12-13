@@ -3,12 +3,13 @@ You come to an opening. On the floor, there another carving of the beast from be
 ### Commands
 explore: The rumbling is louder than ever now. You hear a terrifying roar.
 help:you should try exploring.
+torch:$ADD torch You take one of the torches off the wall. This should come in handy.
 north: You walk north
 west: You walk west
 east: The door closed behind you, you can't go that way.
 check the map:$OPEN map.jpg Check out this sweet map. 
 sword: You use your sword and kill the monster. Woo!
-*?*:map,check the map;sword,sword
+*?*:map,check the map
 ### Paths
 north:29
 west:28
