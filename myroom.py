@@ -190,7 +190,7 @@ def smart_match(choice,node):
                     pass
                 try:
                     node.paths[check_dict[check].lower()] = node.paths[check_dict[check]]
-                    del node.paths[check_dict[check]]
+                    del node.paths[check_dict[check].upper()]
                 except:
                     pass
 # If the check isn't in your state, it deletes the option from commands
@@ -218,7 +218,7 @@ def smart_match(choice,node):
 # Del the conditional commands (otherwise that will cause all sorts of problems)
 ## It turns out I have to leave this otherwise it can only check once, which is sub optimal
     if '*X*' in node.commands:
-        check_dict = dict(check.split(',') for check in node.commands['*?*'].split(';'))
+        check_dict = dict(check.split(',') for check in node.commands['*X*'].split(';'))
         #for check in checks:
         for check in check_dict:
 #if the check isn't in your state, do nothing
@@ -228,11 +228,13 @@ def smart_match(choice,node):
                 try: #Fix upper case if it's there. 
                     node.commands[check_dict[check].lower()] = node.commands[check_dict[check].upper()]
                     del node.commands[check_dict[check].upper()]
+                    print 'deleting upper case'
                 except: #Otherwise, it's already there, so just leave it. 
+                    print 'no uppder case found'
                     pass
                 try:
                     node.paths[check_dict[check].lower()] = node.paths[check_dict[check]]
-                    del node.paths[check_dict[check]]
+                    del node.paths[check_dict[check].upper()]
                 except:
                     pass
 # If the check is in your state, it deletes the option from commands
@@ -361,8 +363,6 @@ def run_node(node):
             choice = raw_input("What do you want to do? ")
         elif 'destroy' in choice: 
             state = choice.split()[-1]
-            print state
-            print STATE
             STATE.remove(state)
             choice = raw_input("What do you want to do? ")
         elif 'skip to' in choice:
