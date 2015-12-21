@@ -1,0 +1,15 @@
+35
+As you walk down the tunnel, it narrows slightly. The walls are smooth, even stones. After a little while, you reach a dead end.
+### Commands
+explore:The wall in front of you has engravings in gold, written in a language you don't understand, and the image of a sword.\nBelow the engravings, in crude carving, you see the words 'ask nicely'.
+say please:The stone wall slides silently open, as light floods out from the chamber within.
+map:$OPEN map.jpg You open up the map.
+help:You won't be able to explore here without some sort of light.
+north:you go back to the north.
+back:you go back.
+*?*:torch,explore;map,map;
+*X*:sword,say please;sword,explore
+### Paths
+north:37
+back:37
+say please:34

@@ -1,16 +1,13 @@
-#
+39
 You come to another opening. It's too dark to see more than a little ways in front of you.
 ### Commands
-explore:Using your sweet torch, you explore the room. \nThere are passages to the north, east, south, and west.
+explore:Using your torch, you can see you've reached a dead end. There seem to be some sort of carvings on the wall.\n The way back is west.
+read:Someone scratched writing into the wall. "Sword west" it says.
 map:$OPEN map.jpg You open up the map.
 help:You won't be able to explore here without some sort of light.
-north: You walk north
-south: You walk south
-east: You walk east
 west: You walk west
+back: You head back
 *?*:torch,explore;map,map
 ### Paths
-north:0
-east:0
-south:0
-west:0
+west:38
+back:38

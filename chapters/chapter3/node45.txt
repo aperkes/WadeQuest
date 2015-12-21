@@ -1,0 +1,12 @@
+45
+As you reach the end of the tunnel, you see two torches set in the rock.\n Between them is a crude carving of the monster from the floor of the labyrinth.\nBeneath the carving are the words, "Eyes go last"
+### Commands
+explore:There isn't anything else here.
+map:$OPEN map.jpg You open up the map.
+help:You won't be able to explore here without some sort of light.
+west: You walk west
+back: You head back
+*?*:torch,explore;map,map
+### Paths
+west:44
+back:44

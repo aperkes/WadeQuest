@@ -1,0 +1,13 @@
+48
+Boss Fight: Water fills the room. It is up to your waist. He surges through the water, causing waves that knock you back and forth.\nHe turns to face you, as water crashes against the wall behind him.\n Suddenly he charges directly at you. A tsunami of water surrounds him, his fiery eyes filled with hatred.
+### Commands
+map:$OPEN map.jpg You open up the map.
+dodge:You try to dodge, but the wave of water pummels you against the wall. "You thought you could fight the gread Adamstor and live?"\n"You know nothing of power." \nThe last thing you see are his yellow teeth as water engulfs you.
+explore:This really isn't the time for that, the monster is closing in on you.
+help:There must be some way to weaken him.
+eyes:You swing at his eyes, but they are far out of reach.
+*?*:sword,eyes;
+*%*:Before you can act, he pummels you agains tthe wall.\n"You thought you could fight the great Adamastor and win? You know nothing of power." \nThe last thing you see are his yellow teeth, water engulfs you.
+### Paths
+*%*:0
+eyes:49

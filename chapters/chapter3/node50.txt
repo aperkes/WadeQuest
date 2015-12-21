@@ -1,0 +1,13 @@
+50
+You win: You're in a beautiful room, and you talk to some wise person. Maybe if you have the book something happens?
+### Commands
+map:Your map got all wet, you can't read it any more.
+explore:Where there were once rough cave walls, you're now in a sort of cathedral. 
+home:you go home!
+book:Oh you found my book, thanks!
+stuff:Oh, you found my book, thank you! 
+*?*:book,stuff
+### Paths
+door:50
+home:776
+book:777

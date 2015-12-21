@@ -1,0 +1,15 @@
+30
+After climbing for quite a while, you reach the bottom. \nThe only way out is back up.
+### Commands
+explore:There is a small pool in the center of the pit. It's only a few inches deep.\n A few bones litter the floor, you hope they aren't human. \n There are markings on the walls, as though someone was counting off the days.\nYou see a pile of cloth in the corner.\n There are no exits, it seems you'll have to climb back.
+climb:You climb back up the wall.
+drink:You drink a little bit of the water, it tastes funny...\n ...You start to feel light headed, and fall face first into the water.
+swim:It's way too shallow for that.
+burn the pile:$ADD pyro the pile catches on fire. In the blaze of light, you realize there are drawings on the wall.\nThey are crude versions of the monster from the floor of the labyrinth.\nEven here, its eyes seem to glow in the firelight.\nThe pile burns out, and you are left in relative darkness.
+search the pile:$ADD book you search through the pile of clothing and find an old book. It look like it came from the libary, it's in the same strange language. You pocket the book.
+map:$OPEN map.jpg You open up the map.
+help:Cave water is sometimes clean, but I wouldn't risk it.
+*?*:torch,explore;map,map;
+*X*:pyro,search the pile;book,search the pile;pyro,burn the pile
+### Paths
+climb:31

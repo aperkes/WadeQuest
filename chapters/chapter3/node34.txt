@@ -1,0 +1,8 @@
+34
+The light here is blinding, having spent so long in dark tunnels.\nAfter your eyes adjust, you find yourself in a beautiful chamber.\nIt is hundreds of feet high, and the vaulted ceiling is decorated with staned glass, allowing sunlight to shine into the room.\nIn the center of the room, a silver handled sword hangs in the air, unsupported by anything.
+### Commands
+explore:Columns rise up to the ceiling but both they and the walls are made from smooth marble. There's no escape here.
+sword:$ADD sword As you take the sword, a lovely voice drifts through the room. \n"*name*, use it well. This sword will smite the beast, but it alone is not enough."\nAs the voice drifts away, the light fades, and you find yourself once again at the stone wall, which is now blank.
+help:You're over thinking this, just get your sword.
+### Paths
+sword:35

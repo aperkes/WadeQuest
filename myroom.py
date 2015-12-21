@@ -217,7 +217,39 @@ def smart_match(choice,node):
                # print node.paths
 # Del the conditional commands (otherwise that will cause all sorts of problems)
 ## It turns out I have to leave this otherwise it can only check once, which is sub optimal
-        #del node.commands['*?*']
+    if '*X*' in node.commands:
+        check_dict = dict(check.split(',') for check in node.commands['*?*'].split(';'))
+        #for check in checks:
+        for check in check_dict:
+#if the check isn't in your state, do nothing
+            if check.strip() not in STATE:
+               # print 'found ' + check.strip()
+               # print STATE
+                try: #Fix upper case if it's there. 
+                    node.commands[check_dict[check].lower()] = node.commands[check_dict[check].upper()]
+                    del node.commands[check_dict[check].upper()]
+                except: #Otherwise, it's already there, so just leave it. 
+                    pass
+                try:
+                    node.paths[check_dict[check].lower()] = node.paths[check_dict[check]]
+                    del node.paths[check_dict[check]]
+                except:
+                    pass
+# If the check is in your state, it deletes the option from commands
+            if check.strip() in STATE:
+## Check if there's a lowercase command to delete, if so, delete it. 
+                try:
+                    node.commands[check_dict[check].upper()] = node.commands[check_dict[check]]
+                    del node.commands[check_dict[check]]
+                except: #Exceptions should only come if it's already been removed, in which case you can do nothing
+                    pass
+## Check if there's a paths, and if so delete it. 
+                try:
+                    node.paths[check_dict[check].upper()] = node.paths[check_dict[check]]
+                    del node.paths[check_dict[check]]
+
+                except:
+                    pass
     if '*!*' in node.commands:
         outcome[0] = node.commands['*!*']
         if '*!*' in node.paths:
@@ -320,13 +352,19 @@ def run_node(node):
         elif choice == '1337 show paths':
             print node.paths
             choice = raw_input("What do you want to do? ")
+        elif choice == '1337 show state':
+            print STATE
+            choice = raw_input("What do you want to do? ")
         elif 'accio' in choice: 
             state = choice.split()[-1]
             STATE.append(state)
             choice = raw_input("What do you want to do? ")
         elif 'destroy' in choice: 
             state = choice.split()[-1]
+            print state
+            print STATE
             STATE.remove(state)
+            choice = raw_input("What do you want to do? ")
         elif 'skip to' in choice:
             print choice
             number = int(choice.split()[-1])

@@ -1,16 +1,14 @@
-#
+36
 You come to another opening. It's too dark to see more than a little ways in front of you.
 ### Commands
-explore:Using your sweet torch, you explore the room. \nThere are passages to the north, east, south, and west.
+explore:Using your sweet torch, you explore the room.\nThis opening is pretty boring, all in rough stone. Towards the east it seems that the passage is becoming more regular. \nThere are passages to the north, east, and south.
 map:$OPEN map.jpg You open up the map.
 help:You won't be able to explore here without some sort of light.
 north: You walk north
 south: You walk south
 east: You walk east
-west: You walk west
 *?*:torch,explore;map,map
 ### Paths
-north:0
-east:0
-south:0
-west:0
+north:40
+east:37
+south:31

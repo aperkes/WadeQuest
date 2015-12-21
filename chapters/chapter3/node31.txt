@@ -1,0 +1,16 @@
+31
+You come to another opening. It's too dark to see more than a little ways in front of you.
+### Commands
+explore:Using your sweet torch, you explore the room.\n There's a pit dropping off in the center of the opening. The rough walls seem to go on forever. \nThere are passages to the north, and east.
+climb:You climb carefully down the side of the pit.
+jump:You jump into the pit. You fall for several seconds, and hit the ground hard.
+map:$OPEN map.jpg You open up the map.
+help:You won't be able to explore here without some sort of light.
+north: You walk north
+east: You walk east
+*?*:torch,explore;map,map
+### Paths
+north:36
+east:31
+jump:0
+climb:30

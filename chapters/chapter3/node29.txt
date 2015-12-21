@@ -1,0 +1,14 @@
+29
+You come to another opening. It's too dark to see more than a little ways in front of you.
+### Commands
+explore:Using your sweet torch, you find a large door with intricate markings on it.\nThere's a small spot for your compass.\nSomething large and terrible is moving behind it. You can also see openings to the north and the south.
+open the door:The door is locked.
+compass:You put your compass into the door, and it opens. 
+help:In these dark corridores, you won't be able to explore without light.
+north: You walk north, into the dark
+south: You walk south, back into the light
+*?*:torch,explore;map,map
+### Paths
+north:32
+south:27
+compass:46

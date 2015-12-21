@@ -1,0 +1,12 @@
+42
+As you approach, the light grows slightly, and then goes out. You reach a dead end. 
+### Commands
+explore: there's a little mouse hole on the back wall. In small, clean letters scratched in the dirt it says, "Not here."
+map:$OPEN map.jpg You open up the map.
+help:You won't be able to explore here without some sort of light.
+east: You walk east
+back: You head back
+*?*:torch,explore;map,map
+### Paths
+east:43
+back:43

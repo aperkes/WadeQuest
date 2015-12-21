@@ -1,0 +1,17 @@
+33
+You come to another opening. It's too dark to see more than a little ways in front of you.
+### Commands
+explore:Using your sweet torch, you explore the room. \n It appears that the tunnel just ends. \nThe way back is west.
+wall:At first it appears the wall is blank, but there's a few words scratched in chalk\n "Rock too hard, no good."
+dig:You dig down a little, but the dirt quickly gives way to hard stone.
+map:$OPEN map.jpg You open up the map.
+help:You won't be able to explore here without some sort of light.
+north: You walk north and hit a wall
+south: You walk south and hit a wall
+east: You walk east and hit a wall
+west: You walk west
+back: You go back.
+*?*:torch,explore;map,map
+### Paths
+west:32
+back:32
