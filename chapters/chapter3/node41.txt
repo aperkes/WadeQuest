@@ -3,7 +3,7 @@ As you head down the tunnel, the light grows slightly, until you reach two small
 ### Commands
 explore:The mouse's corner is quite clean. There's a small hole behind him.
 talk to the mouse: "Hello there," says the mouse. "If you want to beat the monster, you must first cut off his tail."
-speak to the mouuse: "Hello there," says the mouse. "If you want to beat the monster, you must first cut off his tail."
+speak to the mouse: "Hello there," says the mouse. "If you want to beat the monster, you must first cut off his tail."
 map:$OPEN map.jpg You open up the map.
 help:You won't be able to explore here without some sort of light.
 west: You walk west
