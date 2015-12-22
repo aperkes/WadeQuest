@@ -22,10 +22,12 @@ global CURRENT_USER
 global CURRENT_CHAPTER
 global STATE
 
-##For Mac:
-HOME = os.getcwd()
-##For PC
-## HOME = C:\\Documents\Games\Heroes of Wade
+
+##For Windows: (Figure out what else this needs) 
+if os.name = 'nt':
+    HOME = 'C:\\Documents\Games\WadeQuest'
+else:
+    HOME = os.getcwd()
 USER_FILES = HOME + '/user_files'
 CHAPTERS = HOME + '/chapters'
 CURRENT_USER = 0 #dynamic global variable that allows for removal of os.getcwd()
