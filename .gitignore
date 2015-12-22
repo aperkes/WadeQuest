@@ -1,3 +1,9 @@
-user_files/*/
+# Git Ignore: 
+
+#Ignore user files (but include file folder)
+!user_files
+user_files/*
+
+#Ignore junk files
 Junk/
 myroom.py~
