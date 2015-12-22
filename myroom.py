@@ -491,7 +491,8 @@ def remove_profile():
     print "Be very very careful here, you could destroy everything"
     names = os.listdir(USER_FILES)
     for name in names:
-        print name
+        if name[0] != '.':
+            print name
     name = raw_input('Which file do you want to remove?\n')
     if name in names:
         choice = raw_input( 'Are you completely sure you want to delete ' + name + '?\n')
