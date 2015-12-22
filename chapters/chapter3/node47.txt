@@ -1,5 +1,5 @@
 47
-Boss Fight: He lunges at you, sweeping angrily behind him. His eyes seem to spark. 
+Boss Fight: He lunges at you, tail sweeping angrily behind him. His eyes seem to spark. 
 ### Commands
 map:$OPEN map.jpg You open up the map.
 dodge:You dodge his attack, but he's already upon you again.
@@ -8,7 +8,6 @@ help:There must be some way to weaken him.
 eyes:You swing at his eyes, but they are far out of reach.
 sword:Your sword glows brightly. It deflects his blow, but seems to do no damage.
 tail:As his tail whips around you, you swing your sword, slicing it to the ground.\nAs it falls it seems to dissolve into thick, black water.
-*?*:sword,eyes;
 *%*:Before you can act, he rushes at you, pinning you to the ground.\nHis laugh shakes the cavern all around you.\n"You thought you could fight the great Adamastor and win? You know nothing of power." The last thing you see are his yellow teeth, as smoke engulfs you.
 ### Paths
 *%*:0

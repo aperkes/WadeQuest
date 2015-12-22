@@ -3,8 +3,9 @@ It's a dead-end, but there's a strange glow here...
 ### Commands
 explore: The strange glow if very inviting
 glow: As you walk into the glow you hear a pleasant voice,\n "If you are ready to vanquish the moster, speak his name and you will face him."
+it: As you walk into the glow you hear a pleasant voice,\n "If you are ready to vanquish the moster, speak his name and you will face him."
 west: You walk west. 
-adamastor: The glow envelopes you, and you are transported.
+adamastor:$ADD sword The glow envelopes you, as a sword appears around your belt and you are transported.
 back: You go back to the west
 ### Paths
 west:3

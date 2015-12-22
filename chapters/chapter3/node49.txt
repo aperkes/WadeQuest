@@ -1,5 +1,5 @@
 49
-You win: He falls to the ground, as the wave crashes around him.\n"Who are you, that could learn the secrets fo the great Adamastor??"\nAs the light from his eyes fades, rocks fall from the ceiling, revealing stained glass windows, as light pours into the room.\nOn the opposite side of the room, you see a beautiful wooden door.
+He falls to the ground, as the wave crashes around him.\n"Who are you, that could learn the secrets fo the great Adamastor??"\nAs the light from his eyes fades, rocks fall from the ceiling, revealing stained glass windows, as light pours into the room.\nOn the opposite side of the room, you see a beautiful wooden door.
 ### Commands
 map:Your map got all wet, you can't read it any more.
 explore:Where there were once rough cave walls, you're now in a sort of cathedral. 

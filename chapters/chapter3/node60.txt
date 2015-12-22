@@ -6,8 +6,6 @@ go home:"I'm afraid the only way home is through the belly of the beast.\n Oh de
 fight:"The monster is strong, but not invincible. You will need a weapon, and more information on how to fight him.\nI have two sisters who keep the secrets of how to fight the monster, and one who guards the only weapon that can destroy him."
 why:"To be honest, I am not sure why we thought this was a good idea. Maybe to protect people who weren't ready?\nI'm not sure, it's been a while"
 get the map:$ADD map "A map you say? Lets see, I don't have one handy, but I think I could put one together, just a moment."\n . . . \n . . .\n .    .     .    . "All done!" \n She hands you a small map. Type 'open map' to open it.
-get map:$ADD map "A map you say? Lets see, I don't have one handy, but I think I could put one together, just a moment."\n . . . \n . . .\n .    .     .    . "All done!" \n She hands you a small map. Type 'open map' to open it.
-get a map:$ADD map "A map you say? Lets see, I don't have one handy, but I think I could put one together, just a moment."\n . . . \n . . .\n .    .     .    . "All done!" \n She hands you a small map. Type 'open map' to open it.
 help:"I am happy to help. What would you like help with?"
 rumbling:"That is the sound of great beast. He was locked in this dungeoun long ago, but we were unable to destroy him."
 monster:"That is the sound of great beast. He was locked in this dungeoun long ago, but we were unable to destroy him."

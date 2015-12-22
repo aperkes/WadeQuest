@@ -1,4 +1,4 @@
-43
+44
 You come to another opening. It's too dark to see more than a little ways in front of you.\nThere's a faint light to the east.
 ### Commands
 explore:The tunnel here is cleaner. It looks like someone has worked on making everything very neat.\nThe passage leads east, south, and west.

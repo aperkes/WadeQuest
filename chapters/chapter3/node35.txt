@@ -8,8 +8,8 @@ help:You won't be able to explore here without some sort of light.
 north:you go back to the north.
 back:you go back.
 *?*:torch,explore;map,map
-*X*:sword,please;sword,explore
+*X*:sword,please
 ### Paths
 north:37
 back:37
-say please:34
+please:34
