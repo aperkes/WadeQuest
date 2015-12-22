@@ -446,7 +446,8 @@ def have_an_adventure(adventure):
 
 def select_chapter():
     for chapter in os.listdir(CURRENT_USER + '/chapters'):
-        print chapter
+        if chapter[0] != 0:
+            print chapter
     print 'Which chapter?'
     choice = raw_input().strip()
     if choice == 'QUIT':
