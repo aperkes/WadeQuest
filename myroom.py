@@ -230,9 +230,9 @@ def smart_match(choice,node):
                 try: #Fix upper case if it's there. 
                     node.commands[check_dict[check].lower()] = node.commands[check_dict[check].upper()]
                     del node.commands[check_dict[check].upper()]
-                    print 'deleting upper case'
+                    #print 'deleting upper case'
                 except: #Otherwise, it's already there, so just leave it. 
-                    print 'no uppder case found'
+                    #print 'no uppder case found'
                     pass
                 try:
                     node.paths[check_dict[check].lower()] = node.paths[check_dict[check]]
