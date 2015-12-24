@@ -4,5 +4,7 @@ He falls to the ground, as the wave crashes around him.\n"Who are you, that coul
 map:Your map got all wet, you can't read it any more.
 explore:Where there were once rough cave walls, you're now in a sort of cathedral. 
 door:You walk through the door.
+open:You walk through the door
 ### Paths
 door:50
+open:50

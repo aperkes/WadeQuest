@@ -1,5 +1,5 @@
 47
-Boss Fight: He lunges at you, tail sweeping angrily behind him. His eyes seem to spark. 
+He lunges at you, tail sweeping angrily behind him. His eyes seem to spark. 
 ### Commands
 map:$OPEN map.jpg You open up the map.
 dodge:You dodge his attack, but he's already upon you again.

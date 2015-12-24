@@ -3,10 +3,8 @@ Standing in the room is a sage old man in robes. A compass hangs from his neck.\
 ### Commands
 yes:"Oh wonderful! Here, let me give you one of your own"\nThe old man reaches and hands you an ancient book. It looks much like his, but written in english.\nBeautiful illustrations adorn many of the pages.\n"I think you'll find another great adventure lies in store." \nThe light grows and you find yourself back in your room, the old book resting on your table. 
 no:"Oh that's too bad. If you return someday, please find it for me.\nI believe I left it in the pit where I lived for many years."\nThe light grows and you find yourself back in your room, the old book resting on your table. 
-
 *?*:book,yes
-*%*:"Oh that's too bad. If you return someday, please find it for me.\nI believe I left it in the pit where I lived for many years."\nThe light grows and you find yourself back in your room, the old book resting on your table. 
-
+*%*:"Oh that's too bad. If you return someday, please find it for me.\nI believe I left it in the pit where I lived for many years."\nThe light grows and you find yourself back in your room.
 ### Paths
 yes:777
 no:776

@@ -3,6 +3,7 @@ The light here is blinding, having spent so long in dark tunnels.\nAfter your ey
 ### Commands
 explore:Columns rise up to the ceiling but both they and the walls are made from smooth marble. There's no escape here.
 sword:$ADD sword As you take the sword, a lovely voice drifts through the room. \n"*name*, use it well. This sword will smite the beast, but it alone is not enough."\nAs the voice drifts away, the light fades, and you find yourself back at the wall, which is now blank. You head back up the tunnel.
+it:$ADD sword As you take the sword, a lovely voice drifts through the room. \n"*name*, use it well. This sword will smite the beast, but it alone is not enough."\nAs the voice drifts away, the light fades, and you find yourself back at the wall, which is now blank. You head back up the tunnel.
 help:You're over thinking this, just get your sword.
 ### Paths
 sword:37

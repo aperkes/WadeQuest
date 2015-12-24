@@ -118,6 +118,7 @@ def load_nodes(directory):
             header = node.readline() ## Reads off command header
             line = node.readline().strip()
             node_commands = {}
+            print node_loc
             while line[0] != '#':
                 command = line.split(':')
                 node_commands[command[0]] = command[1]

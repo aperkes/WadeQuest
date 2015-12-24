@@ -1,5 +1,5 @@
 48
-Boss Fight: Water fills the room. It is up to your waist. He surges through the water, causing waves that knock you back and forth.\nHe turns to face you, as water crashes against the wall behind him.\n Suddenly he charges directly at you. A tsunami of water surrounds him, his fiery eyes filled with hatred.
+Water fills the room. It is up to your waist. He surges through the water, causing waves that knock you back and forth.\nHe turns to face you, as water crashes against the wall behind him.\n Suddenly he charges directly at you. A tsunami of water surrounds him, his fiery eyes filled with hatred.
 ### Commands
 map:$OPEN map.jpg You open up the map.
 dodge:You try to dodge, but the wave of water pummels you against the wall. "You thought you could fight the gread Adamstor and live?"\n"You know nothing of power." \nThe last thing you see are his yellow teeth as water engulfs you.
