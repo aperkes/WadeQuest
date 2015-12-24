@@ -1,5 +1,5 @@
 14
-It's a dead end. The way back is south
+It's a dead end. The books here are all a dull grey.\nIt feels like no one has been here for centuries. The way back is south
 ### Commands
 explore: Nothing to see here, just more books.
 help: There are a few secret menu options. There might be even more in the future.

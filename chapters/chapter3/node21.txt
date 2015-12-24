@@ -1,7 +1,7 @@
 21
-You come to another opening. There are paths leading north, east, and west
+You come to another opening. It all looks so similar, you notice one of the books is missing. \nThere are paths leading north, east, and west
 ### Commands
-explore: Nothing to see here, just more books.
+explore: Nothing to see here, just more books. The mouse trail you were following disappeared.
 help: Generally speaking, dead ends have more stuff.\nIf there's something in a corridor there will be hints. 
 north: You walk north
 east: You walk east

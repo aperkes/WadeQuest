@@ -1,6 +1,7 @@
 5
-You come to another opening. There are paths leading north, east, and west.
+You come to another opening. The floor has a mural of thunderstorms, \nand you can almost smell the rain coming in.\nThere are paths leading north, east, and west.
 ### Commands
+explore:Everything here looks quite similar. 
 north: You walk north
 east: You walk east
 west: You walk west. 

@@ -1,5 +1,5 @@
 11
-You come to another opening. There are paths leading north, east, and south.
+You come to another opening. The light here is dimmer, and the air feels stale.\nThere are paths leading north, east, and south.
 ### Commands
 explore: Nothing to see here, just more books.
 help: Some dead-ends are just dead-ends, but sometimes you'll find important clues.

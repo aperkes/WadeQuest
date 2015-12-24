@@ -1,5 +1,5 @@
 22
-You come to another opening. There are paths leading east, south, and west
+You come to another opening. The books here are greenish, and have images of plants.\nThere are paths leading east, south, and west
 ### Commands
 explore: Nothing to see here, just more books. You hear rumbling far in the east.
 help: Remember that you're in a maze. You might have to go a somehwat roundabout way.

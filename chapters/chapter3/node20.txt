@@ -1,5 +1,5 @@
 20
-You come to another opening. There are paths leading north, east, and west.
+You come to another opening. The books here have images of all sorts of beasts.\nPerhaps this section is for mythology...or zoology. \nThere are paths leading north, east, and west.
 ### Commands
 explore: Nothing to see here, just more books.
 help: If you haven't figured it out by now, you'll never get a different answer by typing the same thing

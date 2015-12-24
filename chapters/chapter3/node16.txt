@@ -1,8 +1,8 @@
 16
-You come to another opening. There are paths leading north, south, and west.
+You come to another opening. The passages are getting quite narrow. There are paths leading north, south, and west.
 ### Commands
-explore: Nothing to see here, just more books.
-help: If you are ever complete stuck, you can type "QUIT" to quit a chapter.
+explore:There seems to be a little trail heading south, perhaps from a mouse.
+help: If you are ever completely stuck, you can type "QUIT" to quit a chapter.
 north: You walk north
 south: You walk south
 west: You walk west

@@ -1,7 +1,7 @@
 15
-You come to another opening. There are paths leading north, east, and south.
+You come to another opening. The tile here is worn from use.\n There are paths leading north, east, and south.
 ### Commands
-explore: You hear a low rumbling coming from far way. You can't tell which direction it's coming from. Otherwise this corridor is the same as the rest.
+explore: You hear a low rumbling coming from far way. You can't tell which direction it's coming from. 
 help: try exploring.
 north: You walk north
 east: You walk east

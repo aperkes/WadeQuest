@@ -1,7 +1,7 @@
 2
 When you open the door, instead of your house, you see a huge library.\nThe book shelves form corridors. It feels like a labyrinth.\nBefore you know it, the door shuts behind you.\n\n...\nAs you wonder what to do, you feel a weight in your pocket.\n"What have I got in my pocket?" you wonder aloud.\nYou reach into your pocket to reveal a shiny compass.\nYou check it and see that corridor is heading south.
 ### Commands
-explore:it's a library
+explore:The shelves go up as high as you can see. The books are ancient, you try to pull one out, but it's stuck.\nThey're all stuck. 
 get ye flask: You can't get ye flask!
 help:you can't go back, you’re just going to have to go on. 
 fly:Sorry, you can't fly. Maybe someday...
@@ -10,8 +10,6 @@ go:you walk into the library.\nAfter walking for what feels like days with no ch
 library:you walk into the library.\nAfter walking for what feels like days with no change, you see an opening ahead\nAs you reach it you hear a rumbling behind you. \nYou look around to see your way back close behind a book shelf. 
 south:you walk into the library.\nAfter walking for what feels like days with no change, you see an opening ahead\nAs you reach it you hear a rumbling behind you. \nYou look around to see your way back close behind a book shelf. 
 door:the door is locked behind you, you can't get it open.
-library:you walk into the library
-south:you walk south into the library
 ### Paths
 walk:3
 go:3

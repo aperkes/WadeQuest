@@ -24,7 +24,7 @@ global STATE
 
 
 ##For Windows: (Figure out what else this needs) 
-if os.name = 'nt':
+if os.name == 'nt':
     HOME = 'C:\\Documents\Games\WadeQuest'
 else:
     HOME = os.getcwd()
@@ -448,7 +448,7 @@ def have_an_adventure(adventure):
 
 def select_chapter():
     for chapter in os.listdir(CURRENT_USER + '/chapters'):
-        if chapter[0] != 0:
+        if chapter[0] != '.':
             print chapter
     print 'Which chapter?'
     choice = raw_input().strip()

@@ -1,14 +1,14 @@
 3
 The corridor is wide here.\nOn the floor below you there's a mosaic of a great beast. It's eyes are shining, and seem to follow you as you move.\nThe corridors head West, South, and East.
 ### Commands
-explore: Other than the creepy beasts, the book shelves are very tall.\n Sadly, they are too smooth to climb.
-help: Sometimes, particularly if there's nothing else to see, help will give you useful tips. 
+explore: Other than the creepy beast, the book shelves are very tall.\n Sadly, they are too smooth to climb.
+help: Sometimes, particularly if there's nothing else to see, help will give you useful tips...\nThis is not one of those times.
 south: You head South
 east: You head East
 west: You head West
 eyes: The eyes are set in stone, there doesn't seem to be anything you can do with it. 
 book: You can't pull the book out of the shelf. The spines are written in a language you've never seen.
-north: You can't go that way, the shelf is blocking the way
+north: You can't go that way, the shelf is blocking the path.
 shelf: The shelf is blocking your way, you're just going to have to accept that.  
 compass: It's a nice shiny compass, don't lose it.
 ### Paths

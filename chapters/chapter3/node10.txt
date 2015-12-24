@@ -1,8 +1,8 @@
 10
-You come to another opening. There are paths leading north, south, and west
+You come to another opening. This section seems to be about navigation,\njudging by the images of ships on many of the books.\nThere are paths leading north, south, and west.
 ### Commands
-explore: Nothing to see here, just more books.
-help: Some deadends have hints, don't give up.
+explore: Nothing to see here, just more books. 
+help: Some dead-ends have hints, don't give up.
 north: You walk north
 south: You walk south
 west: You walk west. 

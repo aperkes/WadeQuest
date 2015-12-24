@@ -1,7 +1,7 @@
 4
 You come to another opening. There are paths leading east, south, and west.
 ### Commands
-explore: Nothing to see here, just more books.
+explore: Nothing to see here, just more books. The floor is smooth grey stone.
 east: You walk east
 south: You walk south
 west: You walk west. 

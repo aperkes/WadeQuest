@@ -1,5 +1,5 @@
 0
-You're back in your room. What do you wan't do now?
+You awake with the start on your bedroom floor. It's dark outside.
 ### Commands
 explore:It's your room, you know? You've got your bed over there, your box of toys with '*name*' on it. The key is on the desk.
 get ye flask: You can't get ye flask!
@@ -20,6 +20,9 @@ book:These books are great! Maybe we should look outside and see what's going on
 books:These books are great! Maybe we should look outside and see what's going on. 
 door:You unlock the door with the key, and open it.
 unlock:You unlock the door with the key, and open it.
+key:You unlock the door with the key, and open it.
 break: Hm, you really shouldn't break things in your room. I'm going to have to say no at this point. Maybe when you're older. 
 ### Paths
 door:3
+unlock:3
+key:3
