@@ -3,7 +3,6 @@ You come to another opening. It's too dark to see more than a little ways in fro
 ### Commands
 explore:Using your sweet torch, you explore the room.\n The ceiling is quite low in this area, it seems you are walking deeper into some sort of cave. The floor is just dirt.\n It appears there are engravings on the walls. \nThere are passages to the north, east, south, and west.
 wall:You look at the writing on the wall, it says "Monster South West? Need Compass." 
-open:You look at the writing on the wall, it says "Monster South West? Need Compass." 
 map:$OPEN map.jpg You open up the map.
 help:You won't be able to explore here without some sort of light.
 north:You walk north
