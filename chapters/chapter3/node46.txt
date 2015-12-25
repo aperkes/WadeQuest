@@ -5,12 +5,8 @@ map:$OPEN map.jpg You open up the map.
 explore:This really isn't the time for that, the monster is closing in on you.
 help:You'll need a sword if you hope to fight him. 
 sword:You draw your sword.\n It glows with bright blue light, which seems to drive away the smoke, and dim the fire in his eyes.
-weapon:You draw your sword.\n It glows with bright blue light, which seems to drive away the smoke, and dim the fire in his eyes.
-fight:You draw your sword.\n It glows with bright blue light, which seems to drive away the smoke, and dim the fire in his eyes.
-*?*:sword,fight;sword,weapon;sword,sword
+*?*:sword,sword
 *%*:Before you can act, he rushes at you, pinning you to the ground.\nHis laugh shakes the cavern all around you.\n"You thought you could face me with no weapon? You are more foolish than the last." The last thing you see are his yellow teeth, as smoke engulfs you.
 ### Paths
 *%*:0
 sword:47
-fight:47
-weapon:47

@@ -24,10 +24,21 @@ global STATE
 
 
 ##For Windows: (Figure out what else this needs) 
+# This might be bad form, but I think it should work
 if os.name == 'nt':
-    HOME = 'C:\\Documents\Games\WadeQuest'
+    HOME = 'C:\Documents\Games\WadeQuest'
+    #HOME = os.getcwd()
+    def clear_screen():
+        os.system('cls')
+    def system_open(file_name):
+        os.system('start ' + file_name)
 else:
     HOME = os.getcwd()
+    def clear_screen():
+        os.system('clear')
+    def system_open(file_name):
+        os.system('open ' + file_name)
+
 USER_FILES = HOME + '/user_files'
 CHAPTERS = HOME + '/chapters'
 CURRENT_USER = 0 #dynamic global variable that allows for removal of os.getcwd()
@@ -55,6 +66,7 @@ def timed_input(prompt,timeout):
     timer.cancel()
     return answer
 """
+# Function to print slowly, adjust the time to slow it down...
 def slowprint(s):
     if '*name*' in s:
         s = s.replace('*name*',CURRENT_USER.split('/')[-1].capitalize())
@@ -69,7 +81,7 @@ def slowprint(s):
                 sys.stdout.write(c)
                 count += 1
                 sys.stdout.flush()
-                time.sleep(1./110)
+                time.sleep(1./70)  ## Adjust this line.
     except:
         print s[count:] 
 
@@ -118,7 +130,7 @@ def load_nodes(directory):
             header = node.readline() ## Reads off command header
             line = node.readline().strip()
             node_commands = {}
-            print node_loc
+            #print node_loc
             while line[0] != '#':
                 command = line.split(':')
                 node_commands[command[0]] = command[1]
@@ -290,7 +302,8 @@ def smart_match(choice,node):
             space = ' '
             dialog = space.join(prompt_list[2:])
            # raw_input("Current Chapter: " + CURRENT_CHAPTER)
-            os.system('open ' + open_file)
+            system_open(open_file)
+            #os.system('open ' + open_file)
             outcome[0] = dialog
 ## This allows you to add a state if the right command is given.
         if '$ADD' in outcome[0]:
@@ -551,7 +564,8 @@ def select_user():
         return choice
     
 def welcome():
-    os.system('clear')
+    clear_screen()
+    #os.system('clear')
     slowprint('Welcome adventurer. Have you been here before?')
     choice = raw_input('')
     if choice[0].lower() == 'y':
@@ -576,7 +590,8 @@ def menu():
     STATE = []
     user_home = CURRENT_USER
     name = CURRENT_USER.split('/')[-1].capitalize()
-    os.system('clear')
+    clear_screen()
+    #os.system('clear')
     print "Hi " + name + ", what would you like to do?"
     print "Go on an Adventure?" 
     print 'Change User?'
@@ -587,15 +602,18 @@ def menu():
         global CURRENT_CHAPTER
         CURRENT_CHAPTER = select_chapter()
         adventure = load_nodes(CURRENT_CHAPTER)
-        os.system('clear')
+        clear_screen()
+        #os.system('clear')
 
         have_an_adventure(adventure)
-        os.system('clear')
+        clear_screen()
+        #os.system('clear')
     elif 'change' in choice.lower():
         user = select_user()
         return 'U'
     elif 'quit' in choice.lower():
-        os.system('clear')
+        #os.system('clear')
+        clear_screen()
         slowprint('farewell adventurer.')
         return 'Q'
     elif choice == 'DELETE':
