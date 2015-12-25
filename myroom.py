@@ -26,8 +26,8 @@ global STATE
 ##For Windows: (Figure out what else this needs) 
 # This might be bad form, but I think it should work
 if os.name == 'nt':
-    HOME = 'C:\Documents\Games\WadeQuest'
-    #HOME = os.getcwd()
+    #HOME = 'C:\Users\Ethan\Documents\WadeQuest-master'  ### <--- Change this to the file path if it doesn't work
+    HOME = os.getcwd()  ## <-- Add a hash here (#) at the start of line if you change the directory.
     def clear_screen():
         os.system('cls')
     def system_open(file_name):
