@@ -27,18 +27,20 @@ global STATE
 # This might be bad form, but I think it should work
 if os.name == 'nt':
     #HOME = 'C:\Users\Ethan\Documents\WadeQuest-master'  ### <--- Change this to the file path if it doesn't work
-    HOME = os.getcwd()  ## <-- Add a hash here (#) at the start of line if you change the directory.
+    HOME = sys.path[0]  ## <-- Add a hash here (#) at the start of line if you change the directory.
     def clear_screen():
         os.system('cls')
     def system_open(file_name):
         os.system('start ' + file_name)
 else:
-    HOME = os.getcwd()
+    HOME = sys.path[0]
+    #HOME = os.getcwd()
     def clear_screen():
         os.system('clear')
     def system_open(file_name):
         os.system('open ' + file_name)
 
+print 'Home = ' + HOME
 USER_FILES = HOME + '/user_files'
 CHAPTERS = HOME + '/chapters'
 CURRENT_USER = 0 #dynamic global variable that allows for removal of os.getcwd()
